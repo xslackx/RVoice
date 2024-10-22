@@ -2,6 +2,9 @@ import urllib.request
 import xml.etree.ElementTree as ET
 from html.parser import HTMLParser
 from abc import ABC, abstractmethod
+from copy import deepcopy
+try: import gc; gc.enable()
+except: pass
 
 class FeedNews(ABC):
     def __init_subclass__(self) -> None:
@@ -53,20 +56,16 @@ class HackDay(FeedNews):
                 items.append(child)
                 
         def explode(data):
-            let = self.schema
+            let = deepcopy(self.schema)
             for element in data:
                 if element.tag == 'title': let["title"] = element.text
                 if element.tag == 'link': let["link"] = element.text
                 if element.tag == 'description': let["description"] = element.text
                 if element.tag == 'pubDate': let["pub_date"] = element.text
-                if element.tag == 'category': let['category'].append(element.text)   
+                if element.tag == 'category': let['category'].append(element.text)  
                 if element.tag == '{http://purl.org/dc/elements/1.1/}creator':
                     let["creator"] = element.text
                 if element.tag == "{http://purl.org/rss/1.0/modules/content/}encoded":
                     let["content"] = element.text
-            return let   
-
+                    return let
         self.articles = list(map(explode, items))
-
-
-
