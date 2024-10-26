@@ -1,10 +1,12 @@
 import urllib.request
+import urllib.parse
 import xml.etree.ElementTree as ET
 import re
-from html.parser import HTMLParser
+from urllib3 import request
 from abc import ABC, abstractmethod
 from html import unescape
 from copy import deepcopy
+from json import dumps, loads
 try: import gc; gc.enable()
 except: pass
 
@@ -20,7 +22,10 @@ class FeedNews(ABC):
     @abstractmethod
     def consume_feed() -> bool: pass
     @abstractmethod
-    def parse_feed() -> None: pass
+    def parse_feed() -> bool: pass
+    @abstractmethod
+    def send_feed(provider, article) -> str: pass
+    
 
 class HackDay(FeedNews):
     def __init__(self) -> None:
@@ -50,17 +55,22 @@ class HackDay(FeedNews):
         except:
             return False
 
-    def parse_feed(self) -> None:
+    def parse_feed(self) -> bool:
         root = ET.parse("./feeds/feed.xml")
         items = []
         description_re = r"<\/div>(.*)<a"
         content_re = r"<p>(.*)<\/p>"
+        html_tags = '<.*?>'
         
         for child in root.iter():
             if child.tag == "item":
                 items.append(child)
-        
-        def iter_elements(html, tag):
+
+        def remove_html_tags(text):
+            clean = re.compile(html_tags)
+            return re.sub(clean, '', text)
+ 
+        def iter_elements(html: str, tag: str):
             matches = ""
             if tag == "description":
                 matches = re.finditer(description_re, html, re.MULTILINE)
@@ -80,12 +90,12 @@ class HackDay(FeedNews):
                         return unescape(match.group(groupNum))
                     
                     if tag == "content":
-                       stanzas.append(unescape(match.group(groupNum)))
+                       stanzas.append(remove_html_tags(unescape(match.group(groupNum))))
             
             if len(stanzas) > 0 and tag == "content":
                 return stanzas
             
-        def explode(data):
+        def explode(data: list):
             let = deepcopy(self.schema)
             for element in data:
                 if element.tag == 'title': let["title"] = element.text
@@ -97,6 +107,18 @@ class HackDay(FeedNews):
                     let["creator"] = element.text
                 if element.tag == "{http://purl.org/rss/1.0/modules/content/}encoded":
                     let["content"] = iter_elements(element.text, "content")
+                    let["raw_html"] = "parsed"
                     return let
         
         self.articles = list(map(explode, items))
+        
+        if len(self.articles) <= 0:
+            return False
+        return True
+        
+    def send_feed(self, provider: str, article: dict):
+        try: 
+            with request(method='POST', url=provider, body=dumps(article)) as tts:
+                return tts.decode_content
+        except: pass
+    
