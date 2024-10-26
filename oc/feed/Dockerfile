@@ -1,5 +1,4 @@
 FROM alpine:3.18
-MAINTAINER https://github.com/xslackx
 
 RUN apk update && \
 apk add python3 \
@@ -16,3 +15,5 @@ cd feedrss && \
 python3 -m venv . && \
 source bin/activate && \
 pip install -r requirements.txt
+
+ENTRYPOINT su -l feed -c "source /home/feed/app/feedrss/bin/activate && python3 /home/feed/app/feedrss/client.py"

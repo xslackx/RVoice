@@ -5,12 +5,13 @@ from consume_feed import HackDay
 
 debug: bool = True
 skip_send: bool = True
+tts_server = "http://localhost:3636/tts/"
 
 if debug:
     rss = HackDay()
     rss.consume_feed()
-
     rss.parse_feed()
+    
     if len(rss.articles) > 0:
         print("Found ", len(rss.articles)-1, "articles: \n")
         for index, article in enumerate(rss.articles):
@@ -36,11 +37,16 @@ if debug:
         hit = input()
         if not hit:
             if not skip_send:
-                print(rss.send_feed("http://localhost:3636/tts/", rss.articles[int(user_choice)]))
+                print(rss.send_feed(tts_server, rss.articles[int(user_choice)]))
             if skip_send:
-                print(rss.articles[int(user_choice)])
                 for stanzas in rss.articles[int(user_choice)]["content"]:
                     print(stanzas, '\n')
                     time.sleep(8.5)
+                print('Creator:', rss.articles[int(user_choice)]["creator"])
+                print("Published:", rss.articles[int(user_choice)]["pub_date"])
+                print("Categories:\n")
+                for categories in rss.articles[int(user_choice)]["category"]:
+                    print(str(categories).capitalize())
+                print('\n')
         else:
             print('Bye!')
