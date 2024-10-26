@@ -7,6 +7,8 @@ from abc import ABC, abstractmethod
 from html import unescape
 from copy import deepcopy
 from json import dumps, loads
+from os.path import exists
+from os import mkdir
 try: import gc; gc.enable()
 except: pass
 
@@ -44,6 +46,10 @@ class HackDay(FeedNews):
         self.rss_link = "https://hackaday.com/blog/feed/"
         self.out_minicast_dir = "./sounds/"
         self.out_feeds_dir = "./feeds/"
+
+        for outs_dir in self.out_minicast_dir, self.out_feeds_dir:
+            if not exists(outs_dir):
+                mkdir(outs_dir)
          
     def consume_feed(self) -> bool:
         try:
@@ -121,4 +127,3 @@ class HackDay(FeedNews):
             with request(method='POST', url=provider, body=dumps(article)) as tts:
                 return tts.decode_content
         except: pass
-    
