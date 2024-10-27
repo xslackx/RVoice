@@ -42,7 +42,8 @@ if debug:
                     print("Audio processed:", res["name"])
                     print("Downloading file:", res["link"])
                     if rss.get_wave(res):
-                        print('Download file with success:')
+                        print('Download file with success!')
+                        print('Save in ./sounds folder.')
                         
                 if res["status"] == "unprocessed":
                     print("TTS server did not process the task.")

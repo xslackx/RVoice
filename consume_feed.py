@@ -125,13 +125,13 @@ class HackDay(FeedNews):
         
     def send_feed(self, provider: str, article: dict) -> dict:
         try:
-            req = request(method='POST', url=provider, body=dumps(article), timeout=3600)
+            req = request(method='POST', url=provider, body=dumps(article), timeout=4600)
         except: return dumps({"status": 'unprocessed'})
         return req.json()
     
     def get_wave(self, res: dict) -> bool:
         try:
-            with urllib.request.urlopen(res["link"], timeout=3600) as data:
+            with urllib.request.urlopen(res["link"], timeout=4600) as data:
                 with open(f"./sounds/{res['name']}", 'wb') as wav:
                     wav.write(data.read())
                     return True
