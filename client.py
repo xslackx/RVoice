@@ -39,13 +39,13 @@ if debug:
             if not skip_send:
                 res = rss.send_feed(tts_server, rss.articles[int(user_choice)])
                 if res["status"] == "process":
-                    print("File created:", res["name"])
-                    print("Downloading file:", res["name"])
+                    print("Audio processed:", res["name"])
+                    print("Downloading file:", res["link"])
                     if rss.get_wave(res):
                         print('Download file with success:')
                         
                 if res["status"] == "unprocessed":
-                    print(res["status"])
+                    print("TTS server did not process the task.")
                     
             if skip_send:
                 for stanzas in rss.articles[int(user_choice)]["content"]:
