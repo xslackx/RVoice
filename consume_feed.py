@@ -26,9 +26,10 @@ class FeedNews(ABC):
     @abstractmethod
     def parse_feed() -> bool: pass
     @abstractmethod
-    def send_feed(provider, article) -> str: pass
+    def send_feed(provider: str, article: dict) -> dict: pass
+    @abstractmethod
+    def get_wave(res: dict) -> bool: pass
     
-
 class HackDay(FeedNews):
     def __init__(self) -> None:
         self.schema = {
@@ -122,8 +123,16 @@ class HackDay(FeedNews):
             return False
         return True
         
-    def send_feed(self, provider: str, article: dict):
-        try: 
-            with request(method='POST', url=provider, body=dumps(article)) as tts:
-                return tts.decode_content
-        except: pass
+    def send_feed(self, provider: str, article: dict) -> dict:
+        try:
+            req = request(method='POST', url=provider, body=dumps(article), timeout=3600)
+        except: return dumps({"status": 'unprocessed'})
+        return req.json()
+    
+    def get_wave(self, res: dict) -> bool:
+        try:
+            with urllib.request.urlopen(res["link"], timeout=3600) as data:
+                with open(f"./sounds/{res['name']}", 'wb') as wav:
+                    wav.write(data.read())
+                    return True
+        except: return False

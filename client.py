@@ -4,7 +4,7 @@ import os
 from consume_feed import HackDay
 
 debug: bool = True
-skip_send: bool = True
+skip_send: bool = False
 tts_server = "http://localhost:3636/tts/"
 
 if debug:
@@ -27,7 +27,7 @@ if debug:
         exit(1)
 
     if int(user_choice) <= len(rss.articles):
-        print('\n\n\n')
+        print('\n')
         print("Title:", rss.articles[int(user_choice)]["title"])
         print("Date:", rss.articles[int(user_choice)]["pub_date"])
         print("Creator:", rss.articles[int(user_choice)]["creator"])
@@ -37,7 +37,16 @@ if debug:
         hit = input()
         if not hit:
             if not skip_send:
-                print(rss.send_feed(tts_server, rss.articles[int(user_choice)]))
+                res = rss.send_feed(tts_server, rss.articles[int(user_choice)])
+                if res["status"] == "process":
+                    print("File created:", res["name"])
+                    print("Downloading file:", res["name"])
+                    if rss.get_wave(res):
+                        print('Download file with success:')
+                        
+                if res["status"] == "unprocessed":
+                    print(res["status"])
+                    
             if skip_send:
                 for stanzas in rss.articles[int(user_choice)]["content"]:
                     print(stanzas, '\n')
