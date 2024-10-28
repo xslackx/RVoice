@@ -1,7 +1,8 @@
+#!bin/python3.10
 import re
 import time
 import os
-from consume_feed import HackDay
+from syndication.hackday import HackDay
 
 debug: bool = True
 skip_send: bool = False
@@ -13,7 +14,7 @@ if debug:
     rss.parse_feed()
     
     if len(rss.articles) > 0:
-        print("Found ", len(rss.articles)-1, "articles: \n")
+        print("Found ", len(rss.articles), "articles: \n")
         for index, article in enumerate(rss.articles):
             print(f"{index})", article["title"])
         print('\n')

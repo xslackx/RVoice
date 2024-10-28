@@ -8,3 +8,8 @@ lib64
 *.mp3
 *.mp4
 __pycache__
+phoronix.py
+linux-magazine.py
+hackday.py
+itsfoss.py
+lwn.py
