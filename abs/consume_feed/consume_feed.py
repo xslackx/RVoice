@@ -1,13 +1,17 @@
 from abc import ABC, abstractmethod
+from os import mkdir
+from os.path import exists
+import urllib.parse
 
 class FeedNews(ABC):
     def __init_subclass__(self) -> None:
         self.schema = {}
         self.articles = []
         self.rss_link = ""
-        self.out_minicast_dir = ""
-        self.out_feeds_dir = ""
+        self.out_minicast_dir = "./sounds/"
+        self.out_feeds_dir = "./feeds/"
         self.mime = "application/rss+xml; charset=UTF-8"
+        self.feed_file = ""
         return super().__init_subclass__()
     @abstractmethod
     def consume_feed() -> bool: pass
@@ -17,3 +21,11 @@ class FeedNews(ABC):
     def send_feed(provider: str, article: dict) -> dict: pass
     @abstractmethod
     def get_wave(res: dict) -> bool: pass
+    
+    def check_out_dirs(self) -> bool:
+        for outs_dir in self.out_minicast_dir, self.out_feeds_dir:
+            if not exists(outs_dir):
+                if mkdir(outs_dir):
+                    return True
+                else: return False
+                
