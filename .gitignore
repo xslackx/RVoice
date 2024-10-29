@@ -7,7 +7,3 @@ lib64
 *.mp3
 *.mp4
 __pycache__
-linux-magazine.py
-itsfoss.py
-lwn.py
-jeffgeerling.py

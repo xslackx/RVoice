@@ -13,20 +13,7 @@ class Phoronix(FeedNews):
         except: raise Exception("Cannot create the out_minicast_dir or out_feeds_dir in FeedNews abs")
         
         super().__init__()
-    
-    def consume_feed(self) -> bool:
-        try:
-            req = request('GET', 
-                          self.rss_link, 
-                          headers={"User-Agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0"})
-                
-            if req.status == 200 and len(req.data) > 0:
-                with open(self.feed_file, 'wb') as file:
-                    file.write(req.data)
-                    return True
-        except:
-            return False
-    
+        
     def parse_feed(self) -> bool:
         root = ET.parse(f"{self.feed_file}")
         items = []
