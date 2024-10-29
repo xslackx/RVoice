@@ -5,7 +5,7 @@ import os
 from syndication.hackday import HackDay
 
 debug: bool = True
-skip_send: bool = False
+skip_send: bool = True
 tts_server = "http://localhost:3636/tts/"
 
 if debug:

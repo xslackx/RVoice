@@ -3,17 +3,7 @@ from syndication import *
 
 class HackDay(FeedNews):
     def __init__(self) -> None:
-        self.schema = {
-            "title": str,
-            "pub_date": str,
-            "raw_html": str,
-            "description": str,
-            "content": [],
-            "link": str,
-            "creator": str,
-            "category": []
-        }
-
+        self.schema["origin"] =  "Hackday"
         self.articles = []
         self.rss_link = "https://hackaday.com/blog/feed/"
         self.feed_file = f"{self.out_feeds_dir}{urllib.parse.urlsplit(self.rss_link).netloc}.feed.xml"

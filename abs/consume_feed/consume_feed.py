@@ -5,7 +5,17 @@ import urllib.parse
 
 class FeedNews(ABC):
     def __init_subclass__(self) -> None:
-        self.schema = {}
+        self.schema = {            
+            "title": str,
+            "pub_date": str,
+            "raw_html": str,
+            "description": str,
+            "content": [],
+            "link": str,
+            "creator": str,
+            "category": [],
+            "origin": "FeedNews"
+            }
         self.articles = []
         self.rss_link = ""
         self.out_minicast_dir = "./sounds/"
