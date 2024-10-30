@@ -7,10 +7,7 @@ class HackDay(FeedNews):
         self.articles = []
         self.rss_link = "https://hackaday.com/blog/feed/"
         self.feed_file = f"{self.out_feeds_dir}{urllib.parse.urlsplit(self.rss_link).netloc}.feed.xml"
-
-#        try:
-#            self.check_out_dirs()
-#        except: raise Exception("Cannot create the out_minicast_dir or out_feeds_dir in FeedNews abs")
+        self.check_out_dirs()
          
     def consume_feed(self) -> bool:
         try:

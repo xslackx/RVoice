@@ -1,0 +1,169 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns="http://purl.org/rss/1.0/" xmlns:admin="http://webns.net/mvcb/">
+    <channel rdf:about="http://feeds.nature.com/srep/rss/current">
+        <title>Scientific Reports</title>
+        <description>&lt;p&gt;&lt;em&gt;Scientific Reports&lt;/em&gt;&amp;nbsp;publishes original research in&amp;nbsp;all areas of the natural and clinical sciences. We believe that if your research is scientifically valid and technically sound then it deserves to be published and made accessible to the research community.&lt;/p&gt;
+
+&lt;p&gt;By publishing with us, your research will get the coverage and attention it deserves. Open access and continuous online publication means your work will be published swiftly, ready to be accessed by anyone, anywhere, at any time. Article Level Metrics allow you to follow the conversations your work has started.&lt;/p&gt;
+</description>
+        <link>http://feeds.nature.com/srep/rss/current</link>
+        <admin:generatorAgent rdf:resource="https://www.nature.com/"/>
+        <admin:errorReportsTo rdf:resource="mailto:feedback@nature.com"/>
+        <dc:publisher>Nature Publishing Group</dc:publisher>
+        <dc:language>en</dc:language>
+        <dc:rights>© 2024 Macmillan Publishers Limited, part of Springer Nature. All rights reserved.</dc:rights>
+        <prism:publicationName>Scientific Reports</prism:publicationName>
+        
+        
+        <prism:copyright>© 2024 Macmillan Publishers Limited, part of Springer Nature. All rights reserved.</prism:copyright>
+        <prism:rightsAgent>permissions@nature.com</prism:rightsAgent>
+        <image rdf:resource="https://www.nature.com/uploads/product/srep/rss.gif"/>
+        <items>
+            <rdf:Seq>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/s41598-024-74200-2"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/s41598-024-75742-1"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/s41598-024-77072-8"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/s41598-024-77638-6"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/s41598-024-77398-3"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/s41598-024-77862-0"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/s41598-024-74071-7"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/s41598-024-76530-7"/>
+                
+            </rdf:Seq>
+        </items>
+    </channel>
+    <image rdf:about="https://www.nature.com/uploads/product/srep/rss.gif">
+        <title>Scientific Reports</title>
+        <url>https://www.nature.com/uploads/product/srep/rss.gif</url>
+        <link>http://feeds.nature.com/srep/rss/current</link>
+    </image>
+    
+        <item rdf:about="https://www.nature.com/articles/s41598-024-74200-2">
+            <title><![CDATA[Reply to: Geomorphic markers tell a different story about fault slip rates in Tierra del Fuego, Patagonia]]></title>
+            <link>https://www.nature.com/articles/s41598-024-74200-2</link>
+            <content:encoded>
+                <![CDATA[<p>Scientific Reports, Published online: 30 October 2024; <a href="https://www.nature.com/articles/s41598-024-74200-2">doi:10.1038/s41598-024-74200-2</a></p>Reply to: Geomorphic markers tell a different story about fault slip rates in Tierra del Fuego, Patagonia]]></content:encoded>
+            <dc:title><![CDATA[Reply to: Geomorphic markers tell a different story about fault slip rates in Tierra del Fuego, Patagonia]]></dc:title>
+            <dc:creator>Francisca Sandoval</dc:creator><dc:creator>Gregory P. De Pascale</dc:creator>
+            <dc:identifier>doi:10.1038/s41598-024-74200-2</dc:identifier>
+            <dc:source>Scientific Reports, Published online: 2024-10-30; | doi:10.1038/s41598-024-74200-2</dc:source>
+            <dc:date>2024-10-30</dc:date>
+            <prism:publicationName>Scientific Reports</prism:publicationName>
+            <prism:doi>10.1038/s41598-024-74200-2</prism:doi>
+            <prism:url>https://www.nature.com/articles/s41598-024-74200-2</prism:url>
+        </item>
+    
+        <item rdf:about="https://www.nature.com/articles/s41598-024-75742-1">
+            <title><![CDATA[Multi-layer graph attention neural networks for accurate drug-target interaction mapping]]></title>
+            <link>https://www.nature.com/articles/s41598-024-75742-1</link>
+            <content:encoded>
+                <![CDATA[<p>Scientific Reports, Published online: 30 October 2024; <a href="https://www.nature.com/articles/s41598-024-75742-1">doi:10.1038/s41598-024-75742-1</a></p>Multi-layer graph attention neural networks for accurate drug-target interaction mapping]]></content:encoded>
+            <dc:title><![CDATA[Multi-layer graph attention neural networks for accurate drug-target interaction mapping]]></dc:title>
+            <dc:creator>Qianwen Lu</dc:creator><dc:creator>Zhiheng Zhou</dc:creator><dc:creator>Qi Wang</dc:creator>
+            <dc:identifier>doi:10.1038/s41598-024-75742-1</dc:identifier>
+            <dc:source>Scientific Reports, Published online: 2024-10-30; | doi:10.1038/s41598-024-75742-1</dc:source>
+            <dc:date>2024-10-30</dc:date>
+            <prism:publicationName>Scientific Reports</prism:publicationName>
+            <prism:doi>10.1038/s41598-024-75742-1</prism:doi>
+            <prism:url>https://www.nature.com/articles/s41598-024-75742-1</prism:url>
+        </item>
+    
+        <item rdf:about="https://www.nature.com/articles/s41598-024-77072-8">
+            <title><![CDATA[Phase II study of uPAR-PET/CT for staging of primary breast cancer in comparison with ultrasound and fine needle biopsies]]></title>
+            <link>https://www.nature.com/articles/s41598-024-77072-8</link>
+            <content:encoded>
+                <![CDATA[<p>Scientific Reports, Published online: 30 October 2024; <a href="https://www.nature.com/articles/s41598-024-77072-8">doi:10.1038/s41598-024-77072-8</a></p>Phase II study of uPAR-PET/CT for staging of primary breast cancer in comparison with ultrasound and fine needle biopsies]]></content:encoded>
+            <dc:title><![CDATA[Phase II study of uPAR-PET/CT for staging of primary breast cancer in comparison with ultrasound and fine needle biopsies]]></dc:title>
+            <dc:creator>Marie Øbro Fosbøl</dc:creator><dc:creator>Esben Andreas Carlsen</dc:creator><dc:creator>Malene Brandt-Larsen</dc:creator><dc:creator>Camilla Christensen</dc:creator><dc:creator>Jacob Madsen</dc:creator><dc:creator>Annika Loft</dc:creator><dc:creator>Anne Kiil Berthelsen</dc:creator><dc:creator>Tove Filtenborg Tvedskov</dc:creator><dc:creator>Niels Kroman</dc:creator><dc:creator>Kim Francis Andersen</dc:creator><dc:creator>Eric von Benzon</dc:creator><dc:creator>Andreas Kjaer</dc:creator>
+            <dc:identifier>doi:10.1038/s41598-024-77072-8</dc:identifier>
+            <dc:source>Scientific Reports, Published online: 2024-10-30; | doi:10.1038/s41598-024-77072-8</dc:source>
+            <dc:date>2024-10-30</dc:date>
+            <prism:publicationName>Scientific Reports</prism:publicationName>
+            <prism:doi>10.1038/s41598-024-77072-8</prism:doi>
+            <prism:url>https://www.nature.com/articles/s41598-024-77072-8</prism:url>
+        </item>
+    
+        <item rdf:about="https://www.nature.com/articles/s41598-024-77638-6">
+            <title><![CDATA[AI predictive modeling of survival outcomes for renal cancer patients undergoing targeted therapy]]></title>
+            <link>https://www.nature.com/articles/s41598-024-77638-6</link>
+            <content:encoded>
+                <![CDATA[<p>Scientific Reports, Published online: 30 October 2024; <a href="https://www.nature.com/articles/s41598-024-77638-6">doi:10.1038/s41598-024-77638-6</a></p>AI predictive modeling of survival outcomes for renal cancer patients undergoing targeted therapy]]></content:encoded>
+            <dc:title><![CDATA[AI predictive modeling of survival outcomes for renal cancer patients undergoing targeted therapy]]></dc:title>
+            <dc:creator>Yaoqi Yu</dc:creator><dc:creator>Jirui Niu</dc:creator><dc:creator>Yin Yu</dc:creator><dc:creator>Silong Xia</dc:creator><dc:creator>Shiheng Sun</dc:creator>
+            <dc:identifier>doi:10.1038/s41598-024-77638-6</dc:identifier>
+            <dc:source>Scientific Reports, Published online: 2024-10-30; | doi:10.1038/s41598-024-77638-6</dc:source>
+            <dc:date>2024-10-30</dc:date>
+            <prism:publicationName>Scientific Reports</prism:publicationName>
+            <prism:doi>10.1038/s41598-024-77638-6</prism:doi>
+            <prism:url>https://www.nature.com/articles/s41598-024-77638-6</prism:url>
+        </item>
+    
+        <item rdf:about="https://www.nature.com/articles/s41598-024-77398-3">
+            <title><![CDATA[Neural network based estimates of the climate impact on mortality in Germany: application to storyline climate simulations]]></title>
+            <link>https://www.nature.com/articles/s41598-024-77398-3</link>
+            <content:encoded>
+                <![CDATA[<p>Scientific Reports, Published online: 30 October 2024; <a href="https://www.nature.com/articles/s41598-024-77398-3">doi:10.1038/s41598-024-77398-3</a></p>Neural network based estimates of the climate impact on mortality in Germany: application to storyline climate simulations]]></content:encoded>
+            <dc:title><![CDATA[Neural network based estimates of the climate impact on mortality in Germany: application to storyline climate simulations]]></dc:title>
+            <dc:creator>R. Schachtschneider</dc:creator><dc:creator>J. Saynisch-Wagner</dc:creator><dc:creator>A. Sánchez-Benítez</dc:creator><dc:creator>M. Thomas</dc:creator>
+            <dc:identifier>doi:10.1038/s41598-024-77398-3</dc:identifier>
+            <dc:source>Scientific Reports, Published online: 2024-10-30; | doi:10.1038/s41598-024-77398-3</dc:source>
+            <dc:date>2024-10-30</dc:date>
+            <prism:publicationName>Scientific Reports</prism:publicationName>
+            <prism:doi>10.1038/s41598-024-77398-3</prism:doi>
+            <prism:url>https://www.nature.com/articles/s41598-024-77398-3</prism:url>
+        </item>
+    
+        <item rdf:about="https://www.nature.com/articles/s41598-024-77862-0">
+            <title><![CDATA[Non-invasive SARS-CoV-2 RNA detection and human transcriptome analysis using skin surface lipids]]></title>
+            <link>https://www.nature.com/articles/s41598-024-77862-0</link>
+            <content:encoded>
+                <![CDATA[<p>Scientific Reports, Published online: 30 October 2024; <a href="https://www.nature.com/articles/s41598-024-77862-0">doi:10.1038/s41598-024-77862-0</a></p>Non-invasive SARS-CoV-2 RNA detection and human transcriptome analysis using skin surface lipids]]></content:encoded>
+            <dc:title><![CDATA[Non-invasive SARS-CoV-2 RNA detection and human transcriptome analysis using skin surface lipids]]></dc:title>
+            <dc:creator>Tetsuya Kuwano</dc:creator><dc:creator>Takayuki Kanno</dc:creator><dc:creator>Minoru Tobiume</dc:creator><dc:creator>Yuichiro Hirata</dc:creator><dc:creator>Harutaka Katano</dc:creator><dc:creator>Michiko Koga</dc:creator><dc:creator>Hiroyuki Nagai</dc:creator><dc:creator>Takeya Tsutsumi</dc:creator><dc:creator>Noritada Yoshikawa</dc:creator><dc:creator>Hiroshi Yotsuyanagi</dc:creator><dc:creator>Satoshi Kutsuna</dc:creator><dc:creator>Yusuke Miyazato</dc:creator><dc:creator>Noriko Kinoshita-Iwamoto</dc:creator><dc:creator>Norio Ohmagari</dc:creator><dc:creator>Taiichiro Kobayashi</dc:creator><dc:creator>Kazuaki Fukushima</dc:creator><dc:creator>Masaru Tanaka</dc:creator><dc:creator>Akifumi Imamura</dc:creator><dc:creator>Yui Ueda</dc:creator><dc:creator>Maeko Iwamura</dc:creator><dc:creator>Naoto Takada</dc:creator><dc:creator>Takayoshi Inoue</dc:creator><dc:creator>Tetsuro Matano</dc:creator><dc:creator>Ai Kawana-Tachikawa</dc:creator><dc:creator>Tadaki Suzuki</dc:creator>
+            <dc:identifier>doi:10.1038/s41598-024-77862-0</dc:identifier>
+            <dc:source>Scientific Reports, Published online: 2024-10-30; | doi:10.1038/s41598-024-77862-0</dc:source>
+            <dc:date>2024-10-30</dc:date>
+            <prism:publicationName>Scientific Reports</prism:publicationName>
+            <prism:doi>10.1038/s41598-024-77862-0</prism:doi>
+            <prism:url>https://www.nature.com/articles/s41598-024-77862-0</prism:url>
+        </item>
+    
+        <item rdf:about="https://www.nature.com/articles/s41598-024-74071-7">
+            <title><![CDATA[Aluminum Josephson junction microstructure and electrical properties modified by thermal annealing]]></title>
+            <link>https://www.nature.com/articles/s41598-024-74071-7</link>
+            <content:encoded>
+                <![CDATA[<p>Scientific Reports, Published online: 30 October 2024; <a href="https://www.nature.com/articles/s41598-024-74071-7">doi:10.1038/s41598-024-74071-7</a></p>Aluminum Josephson junction microstructure and electrical properties modified by thermal annealing]]></content:encoded>
+            <dc:title><![CDATA[Aluminum Josephson junction microstructure and electrical properties modified by thermal annealing]]></dc:title>
+            <dc:creator>Nikita D. Korshakov</dc:creator><dc:creator>Dmitry O. Moskalev</dc:creator><dc:creator>Anastasia A. Soloveva</dc:creator><dc:creator>Daria A. Moskaleva</dc:creator><dc:creator>Evgeniy S. Lotkov</dc:creator><dc:creator>Artem R. Ibragimov</dc:creator><dc:creator>Margarita V. Androschuk</dc:creator><dc:creator>Ilya A. Ryzhikov</dc:creator><dc:creator>Yuri V. Panfilov</dc:creator><dc:creator>Ilya A. Rodionov</dc:creator>
+            <dc:identifier>doi:10.1038/s41598-024-74071-7</dc:identifier>
+            <dc:source>Scientific Reports, Published online: 2024-10-30; | doi:10.1038/s41598-024-74071-7</dc:source>
+            <dc:date>2024-10-30</dc:date>
+            <prism:publicationName>Scientific Reports</prism:publicationName>
+            <prism:doi>10.1038/s41598-024-74071-7</prism:doi>
+            <prism:url>https://www.nature.com/articles/s41598-024-74071-7</prism:url>
+        </item>
+    
+        <item rdf:about="https://www.nature.com/articles/s41598-024-76530-7">
+            <title><![CDATA[Association of the triglyceride glucose index with myocardial ischemia in patients with minimal to moderate coronary artery disease]]></title>
+            <link>https://www.nature.com/articles/s41598-024-76530-7</link>
+            <content:encoded>
+                <![CDATA[<p>Scientific Reports, Published online: 30 October 2024; <a href="https://www.nature.com/articles/s41598-024-76530-7">doi:10.1038/s41598-024-76530-7</a></p>Association of the triglyceride glucose index with myocardial ischemia in patients with minimal to moderate coronary artery disease]]></content:encoded>
+            <dc:title><![CDATA[Association of the triglyceride glucose index with myocardial ischemia in patients with minimal to moderate coronary artery disease]]></dc:title>
+            <dc:creator>Zengfa Huang</dc:creator><dc:creator>Ruiyao Tang</dc:creator><dc:creator>Yi Ding</dc:creator><dc:creator>Wanpeng Wang</dc:creator><dc:creator>Xinyu Du</dc:creator><dc:creator>Xi Wang</dc:creator><dc:creator>Zuoqin Li</dc:creator><dc:creator>Jianwei Xiao</dc:creator><dc:creator>Xiang Wang</dc:creator>
+            <dc:identifier>doi:10.1038/s41598-024-76530-7</dc:identifier>
+            <dc:source>Scientific Reports, Published online: 2024-10-30; | doi:10.1038/s41598-024-76530-7</dc:source>
+            <dc:date>2024-10-30</dc:date>
+            <prism:publicationName>Scientific Reports</prism:publicationName>
+            <prism:doi>10.1038/s41598-024-76530-7</prism:doi>
+            <prism:url>https://www.nature.com/articles/s41598-024-76530-7</prism:url>
+        </item>
+    
+</rdf:RDF>

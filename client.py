@@ -3,6 +3,11 @@ import re
 import time
 import os
 from syndication.hackday import HackDay
+from syndication.itsfoss import Itsfoss
+from syndication.jeffgeerling import JG
+from syndication.lwn import Lwn
+from syndication.phoronix import Phoronix
+from syndication.linux_magazine import LinuxMagazine
 
 debug: bool = True
 skip_send: bool = False
@@ -12,6 +17,15 @@ if debug:
     rss = HackDay()
     rss.consume_feed()
     rss.parse_feed()
+    
+#    news = []
+#    news.append(Itsfoss())
+#    news.append(JG())
+#    news.append(Lwn())
+#    news.append(Phoronix())
+#    news.append(LinuxMagazine())    
+#    for feeds in news:
+#        feeds.consume_feed()
     
     if len(rss.articles) > 0:
         print("Found ", len(rss.articles), "articles: \n")

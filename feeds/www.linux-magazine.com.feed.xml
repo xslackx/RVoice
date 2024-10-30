@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux Magazine News (path: lmi_news)</title>
+    <link>http://www.linux-magazine.com/</link>
+    <description/>
+    <language>en-US</language>
+    <managingEditor>webdevel@sparkhausmedia.com (Oliver Frommel)</managingEditor>
+    <pubDate>Wed, 30 Oct 2024 16:29:12 +0000</pubDate>
+    <lastBuildDate>Wed, 30 Oct 2024 16:29:12 +0000</lastBuildDate>
+    <generator>eZ Components Feed 1.3 (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://www.linux-magazine.com/rss/feed/lmi_news" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>AlmaLinux OS Kitten 10 Gives Power Users a Sneak Preview</title>
+      <link>http://www.linux-magazine.com/Online/News/AlmaLinux-OS-Kitten-10-Gives-Power-Users-a-Sneak-Preview</link>
+      <description>&lt;p&gt;If you're looking to kick the tires of AlmaLinux's upstream version, the developers have a purrfect solution.&lt;/p&gt;</description>
+      <author>webdevel@sparkhausmedia.com (Gwen Clark)</author>
+      <guid isPermaLink="false">a16eebea4ac15339bff50641696bc6c9</guid>
+      <pubDate>Tue, 29 Oct 2024 21:29:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>Gnome 47.1 Released with a Few Fixes</title>
+      <link>http://www.linux-magazine.com/Online/News/Gnome-47.1-Released-with-a-Few-Fixes</link>
+      <description>&lt;p&gt;The latest release of the Gnome desktop is all about fixing a few nagging issues and not about bringing new features into the mix.&lt;/p&gt;</description>
+      <author>webdevel@sparkhausmedia.com (Gwen Clark)</author>
+      <guid isPermaLink="false">2ec5e532ceb64f96b372bcf3a05a9626</guid>
+      <pubDate>Thu, 24 Oct 2024 19:46:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>System76 Unveils an Ampere-Powered Thelio Desktop</title>
+      <link>http://www.linux-magazine.com/Online/News/System76-Unveils-an-Ampere-Powered-Thelio-Desktop</link>
+      <description>&lt;p&gt;If you're looking for a new desktop system for developing autonomous driving and software-defined vehicle solutions. System76 has you covered.&lt;/p&gt;</description>
+      <author>webdevel@sparkhausmedia.com (Gwen Clark)</author>
+      <guid isPermaLink="false">9168079be2ef960e6fc5af14ab30bd41</guid>
+      <pubDate>Wed, 23 Oct 2024 15:48:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>VirtualBox 7.1.4 Includes Initial Support for Linux kernel 6.12</title>
+      <link>http://www.linux-magazine.com/Online/News/VirtualBox-7.1.4-Includes-Initial-Support-for-Linux-kernel-6.12</link>
+      <description>&lt;p&gt;The latest version of VirtualBox has arrived and it not only adds initial support for kernel 6.12 but another feature that will make using the virtual machine tool much easier.&lt;/p&gt;</description>
+      <author>webdevel@sparkhausmedia.com (Gwen Clark)</author>
+      <guid isPermaLink="false">256fc2f5d6bed083bc267b2f09d3bdeb</guid>
+      <pubDate>Wed, 23 Oct 2024 13:30:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>New Slimbook EVO with Raw AMD Ryzen Power</title>
+      <link>http://www.linux-magazine.com/Online/News/New-Slimbook-EVO-with-Raw-AMD-Ryzen-Power</link>
+      <description>&lt;p&gt;If you're looking for serious power in a 14&amp;quot; ultrabook that is powered by Linux, Slimbook has just the thing for you.&lt;/p&gt;</description>
+      <author>webdevel@sparkhausmedia.com (Gwen Clark)</author>
+      <guid isPermaLink="false">6faef1ece586714998bd2d794c52c546</guid>
+      <pubDate>Mon, 14 Oct 2024 20:27:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Gnome Foundation Struggling to Stay Afloat</title>
+      <link>http://www.linux-magazine.com/Online/News/The-Gnome-Foundation-Struggling-to-Stay-Afloat</link>
+      <description>&lt;p&gt;The foundation behind the Gnome desktop environment is having to go through some serious belt-tightening due to continued financial problems.&lt;/p&gt;</description>
+      <author>webdevel@sparkhausmedia.com (Gwen Clark)</author>
+      <guid isPermaLink="false">b4ec5b59062542c6480d381460ba4a6e</guid>
+      <pubDate>Fri, 11 Oct 2024 18:47:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>Thousands of Linux Servers Infected with Stealth Malware Since 2021</title>
+      <link>http://www.linux-magazine.com/Online/News/Thousands-of-Linux-Servers-Infected-with-Stealth-Malware-Since-2021</link>
+      <description>&lt;p&gt;Perfctl is capable of remaining undetected, which makes it dangerous and hard to mitigate.&lt;/p&gt;</description>
+      <author>webdevel@sparkhausmedia.com (Gwen Clark)</author>
+      <guid isPermaLink="false">aac08b5e90bc99d6e707adb251761db6</guid>
+      <pubDate>Wed, 09 Oct 2024 16:38:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>Halcyon Creates Anti-Ransomware Protection for Linux</title>
+      <link>http://www.linux-magazine.com/Online/News/Halcyon-Creates-Anti-Ransomware-Protection-for-Linux</link>
+      <description>&lt;p&gt;As more Linux systems are targeted by ransomware, Halcyon is stepping up its protection.&lt;/p&gt;</description>
+      <author>webdevel@sparkhausmedia.com (Gwen Clark)</author>
+      <guid isPermaLink="false">c4eeb3571020d33f5e41d94520b543f6</guid>
+      <pubDate>Thu, 03 Oct 2024 13:47:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>Valve and Arch Linux Announce Collaboration</title>
+      <link>http://www.linux-magazine.com/Online/News/Valve-and-Arch-Linux-Announce-Collaboration</link>
+      <description>&lt;p&gt;Valve and Arch have come together for two projects that will have a serious impact on the Linux distribution.&lt;/p&gt;</description>
+      <author>webdevel@sparkhausmedia.com (Gwen Clark)</author>
+      <guid isPermaLink="false">bf0e0a4c734baf818e7e3a439c685f32</guid>
+      <pubDate>Mon, 30 Sep 2024 16:21:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hacker Successfully Runs Linux on a CPU from the Early ‘70s</title>
+      <link>http://www.linux-magazine.com/Online/News/Hacker-Successfully-Runs-Linux-on-a-CPU-from-the-Early-70s</link>
+      <description>&lt;p&gt;From the office of &amp;quot;Look what I can do,&amp;quot; Dmitry Grinberg was able to get Linux running on a processor that was created in 1971.&lt;/p&gt;</description>
+      <author>webdevel@sparkhausmedia.com (Gwen Clark)</author>
+      <guid isPermaLink="false">35e7e4a0d9f528397e11e89c8a373e95</guid>
+      <pubDate>Wed, 25 Sep 2024 19:18:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>OSI and LPI Form Strategic Alliance</title>
+      <link>http://www.linux-magazine.com/Online/News/OSI-and-LPI-Form-Strategic-Alliance</link>
+      <description>&lt;p&gt;With a goal of strengthening Linux and open source communities, this new alliance aims to nurture the growth of more highly skilled professionals.&lt;/p&gt;</description>
+      <author>webdevel@sparkhausmedia.com (Gwen Clark)</author>
+      <guid isPermaLink="false">e9d58bf18c6e01d1c6e56d71c52e9188</guid>
+      <pubDate>Mon, 23 Sep 2024 15:58:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>Fedora 41 Beta Available with Some Interesting Additions</title>
+      <link>http://www.linux-magazine.com/Online/News/Fedora-41-Beta-Available-with-Some-Interesting-Additions</link>
+      <description>&lt;p&gt;If you're a Fedora fan, you'll be excited to hear the beta version of the latest release is now available for testing and includes plenty of updates.&lt;/p&gt;</description>
+      <author>webdevel@sparkhausmedia.com (Gwen Clark)</author>
+      <guid isPermaLink="false">c62ba2802164a65fcd1147380e8bfe73</guid>
+      <pubDate>Wed, 18 Sep 2024 18:44:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>AlmaLinux Unveils New Hardware Certification Process</title>
+      <link>http://www.linux-magazine.com/Online/News/AlmaLinux-Unveils-New-Hardware-Certification-Process</link>
+      <description>&lt;p&gt;The AlmaLinux Hardware Certification Program run by the Certification Special Interest Group (SIG) aims to ensure seamless compatibility between AlmaLinux and a wide range of hardware configurations.&lt;/p&gt;</description>
+      <author>webdevel@sparkhausmedia.com (Gwen Clark)</author>
+      <guid isPermaLink="false">ed3588a1cab4bcdb806764ac8f02f0a0</guid>
+      <pubDate>Tue, 17 Sep 2024 17:22:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>Wind River Introduces eLxr Pro Linux Solution</title>
+      <link>http://www.linux-magazine.com/Online/News/Wind-River-Introduces-eLxr-Pro-Linux-Solution</link>
+      <description>&lt;p&gt;eLxr Pro offers an end-to-end Linux solution backed by expert commercial support.&lt;/p&gt;</description>
+      <author>webdevel@sparkhausmedia.com (Gwen Clark)</author>
+      <guid isPermaLink="false">333fd366a932460e01d155d29636ae89</guid>
+      <pubDate>Tue, 17 Sep 2024 16:18:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Juno Tab 3 Launches with Ubuntu 24.04</title>
+      <link>http://www.linux-magazine.com/Online/News/Juno-Tab-3-Launches-with-Ubuntu-24.04</link>
+      <description>&lt;p&gt;Anyone looking for a full-blown Linux tablet need look no further. Juno has released the Tab 3.&lt;/p&gt;</description>
+      <author>webdevel@sparkhausmedia.com (Gwen Clark)</author>
+      <guid isPermaLink="false">d4533f4bf1fc1e7438a36dbeba271710</guid>
+      <pubDate>Wed, 11 Sep 2024 21:05:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>New KDE Slimbook Plasma Available for Preorder</title>
+      <link>http://www.linux-magazine.com/Online/News/New-KDE-Slimbook-Plasma-Available-for-Preorder</link>
+      <description>&lt;p&gt;Powered by an AMD Ryzen CPU, the latest KDE Slimbook laptop is powerful enough for local AI tasks.&lt;/p&gt;</description>
+      <author>webdevel@sparkhausmedia.com (Gwen Clark)</author>
+      <guid isPermaLink="false">4f7552c4b4b89df9f6a83940ecee2b73</guid>
+      <pubDate>Tue, 10 Sep 2024 22:04:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>Rhino Linux Announces Latest "Quick Update"</title>
+      <link>http://www.linux-magazine.com/Online/News/Rhino-Linux-Announces-Latest-Quick-Update</link>
+      <description>&lt;p&gt;If you prefer your Linux distribution to be of the rolling type, Rhino Linux delivers a beautiful and reliable experience.&lt;/p&gt;</description>
+      <author>webdevel@sparkhausmedia.com (Gwen Clark)</author>
+      <guid isPermaLink="false">fefae9d44c244d58f957aff59ec730e1</guid>
+      <pubDate>Fri, 06 Sep 2024 21:01:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>Plasma Desktop Will Soon Ask for Donations</title>
+      <link>http://www.linux-magazine.com/Online/News/Plasma-Desktop-Will-Soon-Ask-for-Donations</link>
+      <description>&lt;p&gt;The next iteration of Plasma has reached the soft feature freeze for the 6.2 version and includes a feature that could be divisive.&lt;/p&gt;</description>
+      <author>webdevel@sparkhausmedia.com (Gwen Clark)</author>
+      <guid isPermaLink="false">a71bc864ed35c172abb1939f1e4f2dd1</guid>
+      <pubDate>Wed, 04 Sep 2024 14:12:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Linux Market Share Hits New High</title>
+      <link>http://www.linux-magazine.com/Online/News/Linux-Market-Share-Hits-New-High</link>
+      <description>&lt;p&gt;For the first time, the Linux market share has reached a new high for desktops, and the trend looks like it will continue.&lt;/p&gt;</description>
+      <author>webdevel@sparkhausmedia.com (Gwen Clark)</author>
+      <guid isPermaLink="false">59b7736b606a254293a586a4333ada61</guid>
+      <pubDate>Wed, 28 Aug 2024 16:52:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>LibreOffice 24.8 Delivers New Features</title>
+      <link>http://www.linux-magazine.com/Online/News/LibreOffice-24.8-Delivers-New-Features</link>
+      <description>&lt;p&gt;LibreOffice is often considered the de facto standard office suite for the Linux operating system.&lt;/p&gt;</description>
+      <author>webdevel@sparkhausmedia.com (Amy Pettle)</author>
+      <guid isPermaLink="false">e6d8749dca0620b1fb42a478e3cd4907</guid>
+      <pubDate>Mon, 26 Aug 2024 18:37:07 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -16,8 +16,3 @@ class JG(FeedNews):
     def parse_feed() -> bool:
         pass
     
-    def send_feed(provider: str, article: dict) -> dict:
-        return super().send_feed(article)
-
-    def get_wave(res: dict) -> bool:
-        return super().get_wave()

@@ -41,17 +41,3 @@ class Phoronix(FeedNews):
         if len(self.articles) <= 0:
             return False
         return True      
-    
-    def send_feed(self, provider: str, article: dict) -> dict:
-        try:
-            req = request(method='POST', url=provider, body=dumps(article), timeout=4600)
-        except: return dumps({"status": 'unprocessed'})
-        return req.json()
-        
-    def get_wave(self, res: dict) -> bool:
-        try:
-            with urllib.request.urlopen(res["link"], timeout=4600) as data:
-                with open(f"{self.out_minicast_dir}{res['name']}", 'wb') as wav:
-                    wav.write(data.read())
-                    return True
-        except: return False

@@ -24,12 +24,7 @@ class FeedNews(ABC):
         self.out_feeds_dir = "./feeds/"
         self.mime = "application/rss+xml; charset=UTF-8"
         self.feed_file = ""
-
-        try:
-            self.check_out_dirs(self)
-        except: 
-            raise Exception("Cannot create the out_minicast_dir or out_feeds_dir in FeedNews abs")
-
+        
         return super().__init_subclass__()
 
     def consume_feed(self) -> bool:

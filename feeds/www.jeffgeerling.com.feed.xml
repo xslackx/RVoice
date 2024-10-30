@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xml:base="https://www.jeffgeerling.com/">
+  <channel>
+    <title>Jeff Geerling's Blog</title>
+    <link>https://www.jeffgeerling.com/</link>
+    <description/>
+    <language>en</language>
+    
+    <item>
+  <title>Finding a server's BMC / IPMI IP address with ipmitool</title>
+  <link>https://www.jeffgeerling.com/blog/2024/finding-servers-bmc-ipmi-ip-address-ipmitool</link>
+  <description>&lt;span class="field field--name-title field--type-string field--label-hidden"&gt;Finding a server's BMC / IPMI IP address with ipmitool&lt;/span&gt;
+
+            &lt;div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;I test servers on a temporary basis a lot, and many enterprise servers don't have as user-friendly external port indications, or little OLED displays to provide useful information. They're no-frills because they don't need frills, you just deploy them and they run for years.&lt;/p&gt;
+
+&lt;p&gt;I often need to gain access to the server's IPMI/BMC interface to manage the server remotely, and it's not always obvious what IP address is assigned if you don't manually assign one via your router and a MAC address.&lt;/p&gt;
+
+&lt;p&gt;I could scan my network for the IP address, but assuming I have the server booted and it's a modern Supermicro or other standard system, I can use &lt;code&gt;ipmitool&lt;/code&gt; to grab the BMC IP:&lt;/p&gt;&lt;/div&gt;
+      &lt;span class="field field--name-uid field--type-entity-reference field--label-hidden"&gt;&lt;span&gt;Jeff Geerling&lt;/span&gt;&lt;/span&gt;
+&lt;span class="field field--name-created field--type-created field--label-hidden"&gt;&lt;time datetime="2024-10-28T11:17:02-05:00" title="Monday, October 28, 2024 - 11:17" class="datetime"&gt;October 28, 2024&lt;/time&gt;
+&lt;/span&gt;
+</description>
+  <pubDate>Mon, 28 Oct 2024 16:17:02 +0000</pubDate>
+    <dc:creator>Jeff Geerling</dc:creator>
+    <guid isPermaLink="false">3414 at https://www.jeffgeerling.com</guid>
+    </item>
+<item>
+  <title>JetKVM: tiny IP KVM that's not an Apple Watch</title>
+  <link>https://www.jeffgeerling.com/blog/2024/jetkvm-tiny-ip-kvm-thats-not-apple-watch</link>
+  <description>&lt;span class="field field--name-title field--type-string field--label-hidden"&gt;JetKVM: tiny IP KVM that's not an Apple Watch&lt;/span&gt;
+
+            &lt;div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;&lt;img width="700" height="auto" class="insert-image" src="https://www.jeffgeerling.com/sites/default/files/images/jetkvm-running.jpeg" alt="JetKVM running"&gt;&lt;/p&gt;
+
+&lt;p&gt;Despite what it looks like, this &lt;em&gt;isn't&lt;/em&gt; a hot-rod Apple Watch. This is an IP KVM. What does that mean? It's basically a remote control rocket pack for any computer, from a giant tower PC, to a little mini PC you might run in your homelab.&lt;/p&gt;
+
+&lt;p&gt;It's called &lt;a href="https://jetkvm.com"&gt;JetKVM&lt;/a&gt;, and the team behind it sent me two to test out.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;BIG SCARY DISCLAIMER&lt;/strong&gt;: The JetKVM is &lt;a href="https://www.kickstarter.com/projects/jetkvm/jetkvm"&gt;currently on Kickstarter&lt;/a&gt;. If you decide to back it, and they don't deliver, that's... actually pretty common. I &lt;em&gt;did&lt;/em&gt; back their Kickstarter, and I &lt;em&gt;think&lt;/em&gt; they'll deliver, but there are no guarantees.&lt;/p&gt;
+  
+  &lt;p&gt;BuildJet did &lt;em&gt;not&lt;/em&gt; pay for this post, and I am &lt;em&gt;not&lt;/em&gt; sharing in any profit, or even using an affiliate link. I just saw this tiny KVM come across my feed, thought it looked amazing, and asked if I could test it out.&lt;/p&gt;&lt;/blockquote&gt;&lt;/div&gt;
+      &lt;span class="field field--name-uid field--type-entity-reference field--label-hidden"&gt;&lt;span&gt;Jeff Geerling&lt;/span&gt;&lt;/span&gt;
+&lt;span class="field field--name-created field--type-created field--label-hidden"&gt;&lt;time datetime="2024-10-26T09:09:53-05:00" title="Saturday, October 26, 2024 - 09:09" class="datetime"&gt;October 26, 2024&lt;/time&gt;
+&lt;/span&gt;
+</description>
+  <pubDate>Sat, 26 Oct 2024 14:09:53 +0000</pubDate>
+    <dc:creator>Jeff Geerling</dc:creator>
+    <guid isPermaLink="false">3413 at https://www.jeffgeerling.com</guid>
+    </item>
+<item>
+  <title>Qualcomm cancels Snapdragon Dev Kit, refunds all orders</title>
+  <link>https://www.jeffgeerling.com/blog/2024/qualcomm-cancels-snapdragon-dev-kit-refunds-all-orders</link>
+  <description>&lt;span class="field field--name-title field--type-string field--label-hidden"&gt;Qualcomm cancels Snapdragon Dev Kit, refunds all orders&lt;/span&gt;
+
+            &lt;div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;&lt;img width="700" height="auto" class="insert-image" src="https://www.jeffgeerling.com/sites/default/files/images/snapdragon-developer-kit-for-windows-box.jpeg" alt="Snapdragon Developer Kit for Windows"&gt;&lt;/p&gt;
+
+&lt;p&gt;This afternoon I received the following email from Arrow, regarding the &lt;a href="https://www.arrow.com/en/products/c8380-12c-mp-32g/thundercomm"&gt;Snapdragon Developer Kit for Windows&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Dear Valued Customer,&lt;/p&gt;
+  
+  &lt;p&gt;Please see this important message from Qualcomm:&lt;/p&gt;
+  
+  &lt;p&gt;”At Qualcomm, we are dedicated to pioneering leading technology and delivering premium experiences to our valued customers. The launch of 30+ Snapdragon X-series powered PC's is a testament to our ability to deliver leading technology and the PC industry's desire to move to our next-generation technology. However, the Developer Kit product comprehensively has not met our usual standards of excellence and so we are reaching out to let you know that unfortunately we have made the decision to pause this product and the support of it, indefinitely.&lt;/p&gt;&lt;/blockquote&gt;&lt;/div&gt;
+      &lt;span class="field field--name-uid field--type-entity-reference field--label-hidden"&gt;&lt;span&gt;Jeff Geerling&lt;/span&gt;&lt;/span&gt;
+&lt;span class="field field--name-created field--type-created field--label-hidden"&gt;&lt;time datetime="2024-10-17T12:33:13-05:00" title="Thursday, October 17, 2024 - 12:33" class="datetime"&gt;October 17, 2024&lt;/time&gt;
+&lt;/span&gt;
+</description>
+  <pubDate>Thu, 17 Oct 2024 17:33:13 +0000</pubDate>
+    <dc:creator>Jeff Geerling</dc:creator>
+    <guid isPermaLink="false">3412 at https://www.jeffgeerling.com</guid>
+    </item>
+<item>
+  <title>Realizing Meshtastic's Promise with the T-Deck</title>
+  <link>https://www.jeffgeerling.com/blog/2024/realizing-meshtastics-promise-t-deck</link>
+  <description>&lt;span class="field field--name-title field--type-string field--label-hidden"&gt;Realizing Meshtastic's Promise with the T-Deck&lt;/span&gt;
+
+            &lt;div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;&lt;a href="https://meshtastic.org"&gt;Meshtastic&lt;/a&gt;—a simple off-grid mesh network used to transfer short messages—is a neat bit of tech, but until recently, most development has focused on little nodes with or without tiny OLED displays, and a separate phone app or web UI to actually &lt;em&gt;interact&lt;/em&gt; with the mesh.&lt;/p&gt;
+
+&lt;p&gt;The major use case I have for Meshtastic is backup comms—when cell networks and physical infrastructure may be unavailable. In those conditions, I don't want to run my full computer, or even a full smartphone, just to communicate long range via text.&lt;/p&gt;
+
+&lt;p&gt;Enter the T-Deck:&lt;/p&gt;
+
+&lt;p&gt;&lt;img width="700" height="auto" class="insert-image" src="https://www.jeffgeerling.com/sites/default/files/images/lilygo-t-deck-on-workbench-new-firmware.jpeg" alt="Lilygo T-Deck running experimental UI Meshtastic firmware"&gt;&lt;/p&gt;&lt;/div&gt;
+      &lt;span class="field field--name-uid field--type-entity-reference field--label-hidden"&gt;&lt;span&gt;Jeff Geerling&lt;/span&gt;&lt;/span&gt;
+&lt;span class="field field--name-created field--type-created field--label-hidden"&gt;&lt;time datetime="2024-10-11T09:35:11-05:00" title="Friday, October 11, 2024 - 09:35" class="datetime"&gt;October 11, 2024&lt;/time&gt;
+&lt;/span&gt;
+</description>
+  <pubDate>Fri, 11 Oct 2024 14:35:11 +0000</pubDate>
+    <dc:creator>Jeff Geerling</dc:creator>
+    <guid isPermaLink="false">3411 at https://www.jeffgeerling.com</guid>
+    <comments>https://www.jeffgeerling.com/blog/2024/realizing-meshtastics-promise-t-deck#comments</comments>
+    </item>
+<item>
+  <title>3rd Party PoE HATs for Pi 5 add NVMe, fit inside case</title>
+  <link>https://www.jeffgeerling.com/blog/2024/3rd-party-poe-hats-pi-5-add-nvme-fit-inside-case</link>
+  <description>&lt;span class="field field--name-title field--type-string field--label-hidden"&gt;3rd Party PoE HATs for Pi 5 add NVMe, fit inside case&lt;/span&gt;
+
+            &lt;div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;Today I published a video detailing my testing of three new Raspberry Pi HATs—these HATs all add on PoE+ power &lt;em&gt;and&lt;/em&gt; an NVMe SSD slot, though the three go about it in different ways.&lt;/p&gt;
+
+&lt;p&gt;You can watch the video for the full story (embedded below), but in this post I'll go through my brief thoughts on all three, and link to a few other options coming on the market as well.&lt;/p&gt;
+
+&lt;div class="yt-embed"&gt;
+.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }&lt;div class="embed-container"&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2&gt;GeeekPi P33 M.2 NVMe M-Key PoE+ HAT&lt;/h2&gt;
+
+&lt;p&gt;&lt;img width="700" height="auto" class="insert-image" src="https://www.jeffgeerling.com/sites/default/files/images/52pi-p33-geeekpi-poe-nvme-hat.jpg" alt="52Pi P33 GeeekPi PoE+ NVMe HAT for Pi 5"&gt;&lt;/p&gt;&lt;/div&gt;
+      &lt;span class="field field--name-uid field--type-entity-reference field--label-hidden"&gt;&lt;span&gt;Jeff Geerling&lt;/span&gt;&lt;/span&gt;
+&lt;span class="field field--name-created field--type-created field--label-hidden"&gt;&lt;time datetime="2024-10-10T09:01:22-05:00" title="Thursday, October 10, 2024 - 09:01" class="datetime"&gt;October 10, 2024&lt;/time&gt;
+&lt;/span&gt;
+</description>
+  <pubDate>Thu, 10 Oct 2024 14:01:22 +0000</pubDate>
+    <dc:creator>Jeff Geerling</dc:creator>
+    <guid isPermaLink="false">3410 at https://www.jeffgeerling.com</guid>
+    </item>
+<item>
+  <title>Use an External GPU on Raspberry Pi 5 for 4K Gaming</title>
+  <link>https://www.jeffgeerling.com/blog/2024/use-external-gpu-on-raspberry-pi-5-4k-gaming</link>
+  <description>&lt;span class="field field--name-title field--type-string field--label-hidden"&gt;Use an External GPU on Raspberry Pi 5 for 4K Gaming&lt;/span&gt;
+
+            &lt;div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;After I saw Pineboards &lt;a href="https://www.tomshardware.com/raspberry-pi/raspberry-pi-5-and-external-amd-gpu-used-to-play-4k-open-source-kart-racing-game-pineboards-demos-supertuxkart-using-hat-upcity-lite-board"&gt;4K Pi 5 external GPU gaming demo&lt;/a&gt; at Maker Faire Hanover, I decided it was time to set up my GPU test rig and see how the &lt;a href="https://github.com/geerlingguy/raspberry-pi-pcie-devices/issues/564"&gt;Pi OS &lt;code&gt;amdgpu&lt;/code&gt; Linux kernel patch&lt;/a&gt; is going.&lt;/p&gt;
+
+&lt;p&gt;&lt;img width="700" height="auto" class="insert-image" src="https://www.jeffgeerling.com/sites/default/files/images/amdgpu-rx-460-running-glmark2-pi-5.jpeg" alt="GLmark2 running on Pi 5 with AMD RX 460 external GPU"&gt;&lt;/p&gt;
+
+&lt;p&gt;I tested it out &lt;a href="https://www.youtube.com/watch?v=EAlrCFJZlnI"&gt;on a livestream over the weekend&lt;/a&gt;, but I thought I'd document the current state of the patch, how to apply it, and what else is left to do to get &lt;em&gt;full&lt;/em&gt; external GPU support on the Raspberry Pi.&lt;/p&gt;
+
+&lt;p&gt;I also have a full video up with more demonstrations of the GPU in use, you can watch it below:&lt;/p&gt;&lt;/div&gt;
+      &lt;span class="field field--name-uid field--type-entity-reference field--label-hidden"&gt;&lt;span&gt;Jeff Geerling&lt;/span&gt;&lt;/span&gt;
+&lt;span class="field field--name-created field--type-created field--label-hidden"&gt;&lt;time datetime="2024-10-08T12:17:58-05:00" title="Tuesday, October 8, 2024 - 12:17" class="datetime"&gt;October 8, 2024&lt;/time&gt;
+&lt;/span&gt;
+</description>
+  <pubDate>Tue, 08 Oct 2024 17:17:58 +0000</pubDate>
+    <dc:creator>Jeff Geerling</dc:creator>
+    <guid isPermaLink="false">3409 at https://www.jeffgeerling.com</guid>
+    </item>
+<item>
+  <title>Snapdragon Dev Kit for Windows - the fastest X Elite, tested</title>
+  <link>https://www.jeffgeerling.com/blog/2024/snapdragon-dev-kit-windows-fastest-x-elite-tested</link>
+  <description>&lt;span class="field field--name-title field--type-string field--label-hidden"&gt;Snapdragon Dev Kit for Windows - the fastest X Elite, tested&lt;/span&gt;
+
+            &lt;div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;&lt;img width="700" height="auto" class="insert-image" src="https://www.jeffgeerling.com/sites/default/files/images/snapdragon-x-elite-dev-kit-for-windows-hero.jpeg" alt="Snapdragon Dev Kit for Windows - Snapdragon X Elite"&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Update - October 17&lt;/strong&gt;: Today &lt;a href="https://www.jeffgeerling.com/blog/2024/qualcomm-cancels-snapdragon-dev-kit-refunds-all-orders"&gt;Qualcomm cancelled all remaining orders, and will no longer support the Dev Kit&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I have mixed feelings publishing this post: many developers who are &lt;em&gt;actively trying to port their Windows software to Arm&lt;/em&gt; are &lt;a href="https://www.reddit.com/r/snapdragon/comments/1ftrsp4/additional_delivery_update_on_snapdragon/"&gt;still awaiting shipment&lt;/a&gt; of their own Snapdragon Dev Kits, and I seem to be one of the first few people to receive one.&lt;/p&gt;
+
+&lt;p&gt;Everyone I've been in contact with &lt;em&gt;also&lt;/em&gt; ordered the Dev Kit on July 16, but &lt;a href="https://www.jeffgeerling.com/blog/2024/where-qualcomms-snapdragon-x-elite-dev-kit"&gt;we've all been waiting for it to ship—for months&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;
+      &lt;span class="field field--name-uid field--type-entity-reference field--label-hidden"&gt;&lt;span&gt;Jeff Geerling&lt;/span&gt;&lt;/span&gt;
+&lt;span class="field field--name-created field--type-created field--label-hidden"&gt;&lt;time datetime="2024-10-02T09:02:17-05:00" title="Wednesday, October 2, 2024 - 09:02" class="datetime"&gt;October 2, 2024&lt;/time&gt;
+&lt;/span&gt;
+</description>
+  <pubDate>Wed, 02 Oct 2024 14:02:17 +0000</pubDate>
+    <dc:creator>Jeff Geerling</dc:creator>
+    <guid isPermaLink="false">3408 at https://www.jeffgeerling.com</guid>
+    </item>
+<item>
+  <title>AVerMedia Live Gamer Portable 2 Plus - Can't record to microSD</title>
+  <link>https://www.jeffgeerling.com/blog/2024/avermedia-live-gamer-portable-2-plus-cant-record-microsd</link>
+  <description>&lt;span class="field field--name-title field--type-string field--label-hidden"&gt;AVerMedia Live Gamer Portable 2 Plus - Can't record to microSD&lt;/span&gt;
+
+            &lt;div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;I recently purchased an &lt;a href="https://amzn.to/3TMeYv8"&gt;AVerMedia Live Gamer Portable 2 Plus&lt;/a&gt; to help record screens on devices I test at my desk.&lt;/p&gt;
+
+&lt;p&gt;It's claim to fame is being able to record to a microSD card standalone (at resolutions up to 1080p60), without having a separate computer attached.&lt;/p&gt;
+
+&lt;p&gt;For my 4K cameras, I typically use an &lt;a href="https://amzn.to/4elL8pA"&gt;Atomos Ninja V&lt;/a&gt;, since it can record in full 4K resolution, but that thing is $700—the Live Gamer Portable is $120, and runs a lot cooler (and quieter).&lt;/p&gt;
+
+&lt;p&gt;I don't enjoy dealing with microSD cards, but it's more convenient than having to use OBS or some other recording software on my main computer just to capture the HDMI output of another device. Especially since I can't pass through the HD or 4K signal through my little Elgato USB capture card (they do make a few models that do this, but I digress).&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Anyway&lt;/em&gt;, what brings me to this post is the fact I spent way too long trying to figure out the magical microSD card format required to be able to record on the device.&lt;/p&gt;&lt;/div&gt;
+      &lt;span class="field field--name-uid field--type-entity-reference field--label-hidden"&gt;&lt;span&gt;Jeff Geerling&lt;/span&gt;&lt;/span&gt;
+&lt;span class="field field--name-created field--type-created field--label-hidden"&gt;&lt;time datetime="2024-09-27T09:36:42-05:00" title="Friday, September 27, 2024 - 09:36" class="datetime"&gt;September 27, 2024&lt;/time&gt;
+&lt;/span&gt;
+</description>
+  <pubDate>Fri, 27 Sep 2024 14:36:42 +0000</pubDate>
+    <dc:creator>Jeff Geerling</dc:creator>
+    <guid isPermaLink="false">3407 at https://www.jeffgeerling.com</guid>
+    </item>
+<item>
+  <title>Qualcomm Snapdragon Dev Kit for Windows Teardown (2024)</title>
+  <link>https://www.jeffgeerling.com/blog/2024/qualcomm-snapdragon-dev-kit-windows-teardown-2024</link>
+  <description>&lt;span class="field field--name-title field--type-string field--label-hidden"&gt;Qualcomm Snapdragon Dev Kit for Windows Teardown (2024)&lt;/span&gt;
+
+            &lt;div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Update - October 17&lt;/strong&gt;: Today &lt;a href="https://www.jeffgeerling.com/blog/2024/qualcomm-cancels-snapdragon-dev-kit-refunds-all-orders"&gt;Qualcomm cancelled all remaining orders, and will no longer support the Dev Kit&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In late July, a week after ordering the &lt;a href="https://www.arrow.com/en/products/c8380-12c-mp-32g/thundercomm"&gt;Snapdragon Dev Kit&lt;/a&gt;, I wondered &lt;a href="https://www.jeffgeerling.com/blog/2024/where-qualcomms-snapdragon-x-elite-dev-kit"&gt;where it was&lt;/a&gt;. Arrow's website &lt;a href="https://twitter.com/geerlingguy/status/1819386097153065238"&gt;said 'Ships tomorrow' when I ordered&lt;/a&gt;, after all.&lt;/p&gt;
+
+&lt;p&gt;Many developers eager to test their code on Windows on Arm, on the premiere new 'CoPilot+' PCs that would revolutionize computing as we know it, were also wondering.&lt;/p&gt;
+
+&lt;p&gt;&lt;img width="700" height="auto" class="insert-image" src="https://www.jeffgeerling.com/sites/default/files/images/snapdragon-21-disassembled.jpeg" alt="Snapdragon Dev Kit - teardown complete"&gt;&lt;/p&gt;&lt;/div&gt;
+      &lt;span class="field field--name-uid field--type-entity-reference field--label-hidden"&gt;&lt;span&gt;Jeff Geerling&lt;/span&gt;&lt;/span&gt;
+&lt;span class="field field--name-created field--type-created field--label-hidden"&gt;&lt;time datetime="2024-09-25T22:27:19-05:00" title="Wednesday, September 25, 2024 - 22:27" class="datetime"&gt;September 25, 2024&lt;/time&gt;
+&lt;/span&gt;
+</description>
+  <pubDate>Thu, 26 Sep 2024 03:27:19 +0000</pubDate>
+    <dc:creator>Jeff Geerling</dc:creator>
+    <guid isPermaLink="false">3406 at https://www.jeffgeerling.com</guid>
+    </item>
+<item>
+  <title>Elecrow responded, apologized for AI voice cloning</title>
+  <link>https://www.jeffgeerling.com/blog/2024/elecrow-responded-apologized-ai-voice-cloning</link>
+  <description>&lt;span class="field field--name-title field--type-string field--label-hidden"&gt;Elecrow responded, apologized for AI voice cloning&lt;/span&gt;
+
+            &lt;div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;AI voice cloning is a tool. It can be used, and it can be abused.&lt;/p&gt;
+
+&lt;div&gt;
+
+  
+  Your browser does not support the video tag.
+
+&lt;/div&gt;
+
+&lt;p&gt;Last week I was made aware that Elecrow, an electronics manufacturer and distributor, &lt;a href="https://www.jeffgeerling.com/blog/2024/they-stole-my-voice-ai"&gt;was using an unauthorized clone of my voice&lt;/a&gt; in some of their YouTube tutorials.&lt;/p&gt;
+
+&lt;p&gt;I couldn't prove it at the time, but there are AI identity detection services like &lt;a href="https://www.resemble.ai"&gt;Resemble.ai&lt;/a&gt; that can at least give some input into whether it was a direct clone or just something that sounds 'midwestern US male.'&lt;/p&gt;
+
+&lt;p&gt;Anyway, I &lt;a href="https://www.youtube.com/watch?v=UMofZIT9FcQ"&gt;made a short video about it&lt;/a&gt;, because I wanted to make a point that it is &lt;em&gt;not&lt;/em&gt; okay for a corporation to clone someone's voice and use it in their videos without that person's consent.&lt;/p&gt;&lt;/div&gt;
+      &lt;span class="field field--name-uid field--type-entity-reference field--label-hidden"&gt;&lt;span&gt;Jeff Geerling&lt;/span&gt;&lt;/span&gt;
+&lt;span class="field field--name-created field--type-created field--label-hidden"&gt;&lt;time datetime="2024-09-25T10:00:43-05:00" title="Wednesday, September 25, 2024 - 10:00" class="datetime"&gt;September 25, 2024&lt;/time&gt;
+&lt;/span&gt;
+</description>
+  <pubDate>Wed, 25 Sep 2024 15:00:43 +0000</pubDate>
+    <dc:creator>Jeff Geerling</dc:creator>
+    <guid isPermaLink="false">3405 at https://www.jeffgeerling.com</guid>
+    </item>
+
+  </channel>
+</rss>
