@@ -26,7 +26,7 @@ class FeedNews(ABC):
         self.feed_file = ""
 
         try:
-            self.check_out_dirs()
+            self.check_out_dirs(self)
         except: 
             raise Exception("Cannot create the out_minicast_dir or out_feeds_dir in FeedNews abs")
 
