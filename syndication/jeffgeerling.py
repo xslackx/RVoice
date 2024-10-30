@@ -1,9 +1,9 @@
 from abs.consume_feed import FeedNews
 from syndication import *
 
-class Itsfoss(FeedNews):
+class JG(FeedNews):
     def __init__(self) -> None:
-        self.schema["origin"] = "Itsfoss"
+        self.schema["origin"] = "JeffGeerling"
         self.rss_link = "https://www.jeffgeerling.com/blog.xml"
         self.feed_file = f"{self.out_feeds_dir}{urllib.parse.urlsplit(self.rss_link).netloc}.feed.xml"
 

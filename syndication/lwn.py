@@ -13,7 +13,6 @@ class Lwn(FeedNews):
 
         super().__init__()
         
-    
     def parse_feed() -> bool:
         pass
     
