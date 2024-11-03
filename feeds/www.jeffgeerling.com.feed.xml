@@ -7,6 +7,25 @@
     <language>en</language>
     
     <item>
+  <title>LTT's Precision Screwdriver - better than iFixit?</title>
+  <link>https://www.jeffgeerling.com/blog/2024/ltts-precision-screwdriver-better-ifixit</link>
+  <description>&lt;span class="field field--name-title field--type-string field--label-hidden"&gt;LTT's Precision Screwdriver - better than iFixit?&lt;/span&gt;
+
+            &lt;div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;&lt;img width="700" height="auto" class="insert-image" src="https://www.jeffgeerling.com/sites/default/files/images/ltt-precision-screwdriver.jpeg" alt="LTT Precision Screwdriver held by Jeff"&gt;&lt;/p&gt;
+
+&lt;p&gt;Two years ago, Linus Sebastian released a general purpose ratcheting screwdriver tailored towards PC building and IT needs. I &lt;a href="https://www.jeffgeerling.com/blog/2022/youtuber-built-tool-beat-snap-on"&gt;reviewed the LTT Screwdriver&lt;/a&gt;, and found it to be a good tool that &lt;em&gt;did&lt;/em&gt; improve a couple things where it counted: the ratchet mechanism was useful for a broad range of lighter tasks, and the in-handle bit storage was a creative improvement over the patented MegaPro Automotive design the LTT Screwdriver was based on.&lt;/p&gt;
+
+&lt;p&gt;The price of the LTT Screwdriver was about $15-20 more than I think it's worth, but it's still a good enough driver you can justify paying extra. I bought three LTT Screwdrivers and have one on each of my workbenches at home and at the studio!&lt;/p&gt;&lt;/div&gt;
+      &lt;span class="field field--name-uid field--type-entity-reference field--label-hidden"&gt;&lt;span&gt;Jeff Geerling&lt;/span&gt;&lt;/span&gt;
+&lt;span class="field field--name-created field--type-created field--label-hidden"&gt;&lt;time datetime="2024-10-31T09:01:03-05:00" title="Thursday, October 31, 2024 - 09:01" class="datetime"&gt;October 31, 2024&lt;/time&gt;
+&lt;/span&gt;
+</description>
+  <pubDate>Thu, 31 Oct 2024 14:01:03 +0000</pubDate>
+    <dc:creator>Jeff Geerling</dc:creator>
+    <guid isPermaLink="false">3415 at https://www.jeffgeerling.com</guid>
+    <comments>https://www.jeffgeerling.com/blog/2024/ltts-precision-screwdriver-better-ifixit#comments</comments>
+    </item>
+<item>
   <title>Finding a server's BMC / IPMI IP address with ipmitool</title>
   <link>https://www.jeffgeerling.com/blog/2024/finding-servers-bmc-ipmi-ip-address-ipmitool</link>
   <description>&lt;span class="field field--name-title field--type-string field--label-hidden"&gt;Finding a server's BMC / IPMI IP address with ipmitool&lt;/span&gt;
@@ -23,6 +42,7 @@
   <pubDate>Mon, 28 Oct 2024 16:17:02 +0000</pubDate>
     <dc:creator>Jeff Geerling</dc:creator>
     <guid isPermaLink="false">3414 at https://www.jeffgeerling.com</guid>
+    <comments>https://www.jeffgeerling.com/blog/2024/finding-servers-bmc-ipmi-ip-address-ipmitool#comments</comments>
     </item>
 <item>
   <title>JetKVM: tiny IP KVM that's not an Apple Watch</title>
@@ -46,6 +66,7 @@
   <pubDate>Sat, 26 Oct 2024 14:09:53 +0000</pubDate>
     <dc:creator>Jeff Geerling</dc:creator>
     <guid isPermaLink="false">3413 at https://www.jeffgeerling.com</guid>
+    <comments>https://www.jeffgeerling.com/blog/2024/jetkvm-tiny-ip-kvm-thats-not-apple-watch#comments</comments>
     </item>
 <item>
   <title>Qualcomm cancels Snapdragon Dev Kit, refunds all orders</title>
@@ -69,6 +90,7 @@
   <pubDate>Thu, 17 Oct 2024 17:33:13 +0000</pubDate>
     <dc:creator>Jeff Geerling</dc:creator>
     <guid isPermaLink="false">3412 at https://www.jeffgeerling.com</guid>
+    <comments>https://www.jeffgeerling.com/blog/2024/qualcomm-cancels-snapdragon-dev-kit-refunds-all-orders#comments</comments>
     </item>
 <item>
   <title>Realizing Meshtastic's Promise with the T-Deck</title>
@@ -114,6 +136,7 @@
   <pubDate>Thu, 10 Oct 2024 14:01:22 +0000</pubDate>
     <dc:creator>Jeff Geerling</dc:creator>
     <guid isPermaLink="false">3410 at https://www.jeffgeerling.com</guid>
+    <comments>https://www.jeffgeerling.com/blog/2024/3rd-party-poe-hats-pi-5-add-nvme-fit-inside-case#comments</comments>
     </item>
 <item>
   <title>Use an External GPU on Raspberry Pi 5 for 4K Gaming</title>
@@ -156,6 +179,7 @@
   <pubDate>Wed, 02 Oct 2024 14:02:17 +0000</pubDate>
     <dc:creator>Jeff Geerling</dc:creator>
     <guid isPermaLink="false">3408 at https://www.jeffgeerling.com</guid>
+    <comments>https://www.jeffgeerling.com/blog/2024/snapdragon-dev-kit-windows-fastest-x-elite-tested#comments</comments>
     </item>
 <item>
   <title>AVerMedia Live Gamer Portable 2 Plus - Can't record to microSD</title>
@@ -178,6 +202,7 @@
   <pubDate>Fri, 27 Sep 2024 14:36:42 +0000</pubDate>
     <dc:creator>Jeff Geerling</dc:creator>
     <guid isPermaLink="false">3407 at https://www.jeffgeerling.com</guid>
+    <comments>https://www.jeffgeerling.com/blog/2024/avermedia-live-gamer-portable-2-plus-cant-record-microsd#comments</comments>
     </item>
 <item>
   <title>Qualcomm Snapdragon Dev Kit for Windows Teardown (2024)</title>
@@ -200,33 +225,7 @@
   <pubDate>Thu, 26 Sep 2024 03:27:19 +0000</pubDate>
     <dc:creator>Jeff Geerling</dc:creator>
     <guid isPermaLink="false">3406 at https://www.jeffgeerling.com</guid>
-    </item>
-<item>
-  <title>Elecrow responded, apologized for AI voice cloning</title>
-  <link>https://www.jeffgeerling.com/blog/2024/elecrow-responded-apologized-ai-voice-cloning</link>
-  <description>&lt;span class="field field--name-title field--type-string field--label-hidden"&gt;Elecrow responded, apologized for AI voice cloning&lt;/span&gt;
-
-            &lt;div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;AI voice cloning is a tool. It can be used, and it can be abused.&lt;/p&gt;
-
-&lt;div&gt;
-
-  
-  Your browser does not support the video tag.
-
-&lt;/div&gt;
-
-&lt;p&gt;Last week I was made aware that Elecrow, an electronics manufacturer and distributor, &lt;a href="https://www.jeffgeerling.com/blog/2024/they-stole-my-voice-ai"&gt;was using an unauthorized clone of my voice&lt;/a&gt; in some of their YouTube tutorials.&lt;/p&gt;
-
-&lt;p&gt;I couldn't prove it at the time, but there are AI identity detection services like &lt;a href="https://www.resemble.ai"&gt;Resemble.ai&lt;/a&gt; that can at least give some input into whether it was a direct clone or just something that sounds 'midwestern US male.'&lt;/p&gt;
-
-&lt;p&gt;Anyway, I &lt;a href="https://www.youtube.com/watch?v=UMofZIT9FcQ"&gt;made a short video about it&lt;/a&gt;, because I wanted to make a point that it is &lt;em&gt;not&lt;/em&gt; okay for a corporation to clone someone's voice and use it in their videos without that person's consent.&lt;/p&gt;&lt;/div&gt;
-      &lt;span class="field field--name-uid field--type-entity-reference field--label-hidden"&gt;&lt;span&gt;Jeff Geerling&lt;/span&gt;&lt;/span&gt;
-&lt;span class="field field--name-created field--type-created field--label-hidden"&gt;&lt;time datetime="2024-09-25T10:00:43-05:00" title="Wednesday, September 25, 2024 - 10:00" class="datetime"&gt;September 25, 2024&lt;/time&gt;
-&lt;/span&gt;
-</description>
-  <pubDate>Wed, 25 Sep 2024 15:00:43 +0000</pubDate>
-    <dc:creator>Jeff Geerling</dc:creator>
-    <guid isPermaLink="false">3405 at https://www.jeffgeerling.com</guid>
+    <comments>https://www.jeffgeerling.com/blog/2024/qualcomm-snapdragon-dev-kit-windows-teardown-2024#comments</comments>
     </item>
 
   </channel>

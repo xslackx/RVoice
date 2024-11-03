@@ -6,11 +6,19 @@
     <description/>
     <language>en-US</language>
     <managingEditor>webdevel@sparkhausmedia.com (Oliver Frommel)</managingEditor>
-    <pubDate>Wed, 30 Oct 2024 16:29:12 +0000</pubDate>
-    <lastBuildDate>Wed, 30 Oct 2024 16:29:12 +0000</lastBuildDate>
+    <pubDate>Sun, 03 Nov 2024 00:54:15 +0000</pubDate>
+    <lastBuildDate>Sun, 03 Nov 2024 00:54:15 +0000</lastBuildDate>
     <generator>eZ Components Feed 1.3 (http://ezcomponents.org/docs/tutorials/Feed)</generator>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <atom:link href="http://www.linux-magazine.com/rss/feed/lmi_news" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Fedora 41 Released with New Features</title>
+      <link>http://www.linux-magazine.com/Online/News/Fedora-41-Released-with-New-Features</link>
+      <description>&lt;p&gt;If you're a Fedora fan or just looking for a Linux distribution to help you migrate from Windows, Fedora 41 might be just the ticket.&lt;/p&gt;</description>
+      <author>webdevel@sparkhausmedia.com (Gwen Clark)</author>
+      <guid isPermaLink="false">063b6780af061a59970cd14d21a5176a</guid>
+      <pubDate>Fri, 01 Nov 2024 17:40:47 +0000</pubDate>
+    </item>
     <item>
       <title>AlmaLinux OS Kitten 10 Gives Power Users a Sneak Preview</title>
       <link>http://www.linux-magazine.com/Online/News/AlmaLinux-OS-Kitten-10-Gives-Power-Users-a-Sneak-Preview</link>
@@ -162,14 +170,6 @@
       <author>webdevel@sparkhausmedia.com (Gwen Clark)</author>
       <guid isPermaLink="false">59b7736b606a254293a586a4333ada61</guid>
       <pubDate>Wed, 28 Aug 2024 16:52:16 +0000</pubDate>
-    </item>
-    <item>
-      <title>LibreOffice 24.8 Delivers New Features</title>
-      <link>http://www.linux-magazine.com/Online/News/LibreOffice-24.8-Delivers-New-Features</link>
-      <description>&lt;p&gt;LibreOffice is often considered the de facto standard office suite for the Linux operating system.&lt;/p&gt;</description>
-      <author>webdevel@sparkhausmedia.com (Amy Pettle)</author>
-      <guid isPermaLink="false">e6d8749dca0620b1fb42a478e3cd4907</guid>
-      <pubDate>Mon, 26 Aug 2024 18:37:07 +0000</pubDate>
     </item>
   </channel>
 </rss>

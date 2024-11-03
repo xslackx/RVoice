@@ -8,13 +8,169 @@
         listing all articles which are posted to the site front page.
 </description>
         <language>en-us</language>
-        <pubDate>Wed, 30 Oct 2024 16:23:29 +0000</pubDate>
-        <lastBuildDate>Wed, 30 Oct 2024 16:23:29 +0000</lastBuildDate>
+        <pubDate>Sat, 02 Nov 2024 22:27:27 +0000</pubDate>
+        <lastBuildDate>Sat, 02 Nov 2024 22:27:27 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <webMaster>lwn@lwn.net</webMaster>
         <atom:link href="https://lwn.net/headlines/rss"
     		rel="self" type="application/rss+xml"/>
     <item>
+        <title>[$] OSI board AMA at All Things Open</title>
+        <link>https://lwn.net/Articles/996356/</link>
+        <guid>https://lwn.net/Articles/996356/</guid>
+        <dc:creator>jzb</dc:creator>
+        <description>&lt;p&gt;Members of the &lt;a href=&quot;https://opensource.org/&quot;&gt;Open Source
+Initiative&lt;/a&gt; (OSI) board sat down for a 45-minute &quot;Ask Me Anything&quot;
+(AMA) session at &lt;a href=&quot;https://2024.allthingsopen.org/&quot;&gt;All Things
+Open&lt;/a&gt; in Raleigh, NC on October 29. Though the floor was open to
+any topic the audience might want to ask of the &lt;a
+href=&quot;https://opensource.org/board&quot;&gt;OSI board&lt;/a&gt;. Many of the
+questions were focused on the &lt;a
+href=&quot;https://opensource.org/ai/open-source-ai-definition&quot;&gt;Open Source
+AI Definition&lt;/a&gt; (OSAID), which was &lt;a
+href=&quot;https://lwn.net/Articles/996104/&quot;&gt;announced&lt;/a&gt; the day
+before. The new definition has been &lt;a
+href=&quot;https://lwn.net/Articles/995159/&quot;&gt;somewhat controversial&lt;/a&gt;,
+and the board spent a lot of time addressing concerns about it during
+the session, as well as questions on open washing, and a need for more
+education about open source in general.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 01 Nov 2024 17:14:57 +0000</pubDate>
+        </item>
+        <item>
+        <title>Four Friday stable kernel updates</title>
+        <link>https://lwn.net/Articles/996687/</link>
+        <guid>https://lwn.net/Articles/996687/</guid>
+        <dc:creator>daroc</dc:creator>
+        <description>&lt;p&gt;
+Greg Kroah-Hartman has released another four stable Linux kernel updates:
+&lt;a href=&quot;https://lwn.net/Articles/996688/&quot;&gt;6.11.6&lt;/a&gt;,
+&lt;a href=&quot;https://lwn.net/Articles/996689/&quot;&gt;6.6.59&lt;/a&gt;,
+&lt;a href=&quot;https://lwn.net/Articles/996690/&quot;&gt;6.1.115&lt;/a&gt;, and
+&lt;a href=&quot;https://lwn.net/Articles/996691/&quot;&gt;5.15.170&lt;/a&gt;.
+&lt;/p&gt;</description>
+        <pubDate>Fri, 01 Nov 2024 14:43:50 +0000</pubDate>
+        </item>
+        <item>
+        <title>Security updates for Friday</title>
+        <link>https://lwn.net/Articles/996679/</link>
+        <guid>https://lwn.net/Articles/996679/</guid>
+        <dc:creator>daroc</dc:creator>
+        <description>Security updates have been issued by &lt;b&gt;Debian&lt;/b&gt; (firefox-esr), &lt;b&gt;Fedora&lt;/b&gt; (xorg-x11-server-Xwayland), &lt;b&gt;Oracle&lt;/b&gt; (buildah, e2fsprogs, grafana, kernel, and mod_http2), &lt;b&gt;Red Hat&lt;/b&gt; (buildah, container-tools:rhel8, firefox, grafana, grafana:7.3.6, podman, and thunderbird), &lt;b&gt;SUSE&lt;/b&gt; (alloy, cargo-audit-advisory-db-20241030, chromedriver, corepack22, netty, openvpn, python310-Werkzeug, thunderbird, uwsgi, and xsd), and &lt;b&gt;Ubuntu&lt;/b&gt; (linux, linux-azure-6.8, linux-gcp-6.8, linux-hwe-6.8 and linux, linux-gcp, linux-gcp-5.4, linux-gkeop, linux-hwe-5.4, linux-ibm, linux-ibm-5.4).
+</description>
+        <pubDate>Fri, 01 Nov 2024 12:44:21 +0000</pubDate>
+        </item>
+        <item>
+        <title>October project goals update (Rust Blog)</title>
+        <link>https://lwn.net/Articles/996585/</link>
+        <guid>https://lwn.net/Articles/996585/</guid>
+        <dc:creator>jzb</dc:creator>
+        <description>&lt;p&gt;The Rust blog has an &lt;a
+href=&quot;https://blog.rust-lang.org/2024/10/31/project-goals-oct-update.html&quot;&gt;update&lt;/a&gt;
+on its progress on some of its &lt;a
+href=&quot;https://rust-lang.github.io/rust-project-goals/2024h2/goals.html&quot;&gt;project
+goals&lt;/a&gt;. One of the project's &lt;a
+href=&quot;https://rust-lang.github.io/rust-project-goals/2024h2/goals.html#flagship-goals&quot;&gt;flagship
+goals&lt;/a&gt; is to &lt;a
+href=&quot;https://rust-lang.github.io/rust-project-goals/2024h2/rfl_stable.html&quot;&gt;resolve
+the biggest blockers to Linux building on stable Rust&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote class=&quot;bq&quot;&gt;
+Finally, we have been finding an increasing number of stabilization
+requests at the compiler level, and so @wesleywiser and @davidtwco
+from the compiler team have started attending meetings to create a
+faster response. One of the results of that collaboration is &lt;a
+href=&quot;https://github.com/rust-lang/rfcs/pull/3716&quot;&gt;RFC #3716&lt;/a&gt;,
+authored by Alice Ryhl, which proposes a method to manage compiler
+flags that modify the target ABI. Our previous approach has been to
+create distinct targets for each combination of flags, but the number
+of flags needed by the kernel make that impractical. Authoring the RFC
+revealed more such flags than previously recognized, including those
+that modify LLVM behavior.
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;/p&gt;</description>
+        <pubDate>Thu, 31 Oct 2024 21:26:59 +0000</pubDate>
+        </item>
+        <item>
+        <title>[$] The Overture open-mapping project</title>
+        <link>https://lwn.net/Articles/995992/</link>
+        <guid>https://lwn.net/Articles/995992/</guid>
+        <dc:creator>corbet</dc:creator>
+        <description>&lt;a href=&quot;https://openstreetmap.org/&quot;&gt;OpenStreetMap&lt;/a&gt; tends to dominate
+the space for open mapping data, but it is not the only project working in
+this area.  At the 2024 &lt;a
+href=&quot;https://events.linuxfoundation.org/open-source-summit-japan/&quot;&gt;Open
+Source Summit Japan&lt;/a&gt;, Marc Prioleau presented the &lt;a
+href=&quot;https://overturemaps.org/&quot;&gt;Overture Maps Foundation&lt;/a&gt;, which is
+building and distributing a set of worldwide maps under open licenses.
+Overture may have a similar goal to OpenStreetMap, but its approach and
+intended uses are significantly different.
+</description>
+        <pubDate>Thu, 31 Oct 2024 16:48:05 +0000</pubDate>
+        </item>
+        <item>
+        <title>Security updates for Thursday</title>
+        <link>https://lwn.net/Articles/996526/</link>
+        <guid>https://lwn.net/Articles/996526/</guid>
+        <dc:creator>jake</dc:creator>
+        <description>Security updates have been issued by &lt;b&gt;Debian&lt;/b&gt; (firefox-esr and openssl), &lt;b&gt;Fedora&lt;/b&gt; (firefox, libarchive, micropython, NetworkManager-libreswan, and xorg-x11-server-Xwayland), &lt;b&gt;Red Hat&lt;/b&gt; (nano), &lt;b&gt;Slackware&lt;/b&gt; (mozilla-firefox, mozilla-thunderbird, tigervnc, and xorg), &lt;b&gt;SUSE&lt;/b&gt; (389-ds, Botan, go1.21-openssl, govulncheck-vulndb, java-11-openjdk, lxc, python-Werkzeug, and uwsgi), and &lt;b&gt;Ubuntu&lt;/b&gt; (firefox, libarchive, linux-azure-fde, linux-azure-fde-5.15, python-pip, and xorg-server, xorg-server-hwe-16.04, xorg-server-hwe-18.04).
+</description>
+        <pubDate>Thu, 31 Oct 2024 14:43:10 +0000</pubDate>
+        </item>
+        <item>
+        <title>[$] LWN.net Weekly Edition for October 31, 2024</title>
+        <link>https://lwn.net/Articles/995490/</link>
+        <guid>https://lwn.net/Articles/995490/</guid>
+        <dc:creator>corbet</dc:creator>
+        <description>The LWN.net Weekly Edition for October 31, 2024 is available.
+</description>
+        <pubDate>Thu, 31 Oct 2024 00:42:27 +0000</pubDate>
+        </item>
+        <item>
+        <title>Ravier: What's new for Fedora Atomic Desktops in Fedora 41</title>
+        <link>https://lwn.net/Articles/996337/</link>
+        <guid>https://lwn.net/Articles/996337/</guid>
+        <dc:creator>jzb</dc:creator>
+        <description>&lt;p&gt;Timothée Ravier has written &lt;a
+href=&quot;https://tim.siosm.fr/blog/2024/10/30/fedora-atomic-desktops-41/&quot;&gt;a
+blog post&lt;/a&gt; about changes in the &lt;a
+href=&quot;https://fedoraproject.org/atomic-desktops/&quot;&gt;Fedora Atomic
+Desktops&lt;/a&gt; for Fedora&amp;nbsp;Linux&amp;nbsp;41. Some of the notable new
+features for Atomic Desktops include bootloader updates enabled by
+default for UEFI systems, first steps towards using &lt;a
+href=&quot;https://containers.github.io/bootable/&quot;&gt;bootable containers&lt;/a&gt;,
+and more.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;</description>
+        <pubDate>Wed, 30 Oct 2024 17:52:53 +0000</pubDate>
+        </item>
+        <item>
+        <title>A new release of Raspberry Pi OS</title>
+        <link>https://lwn.net/Articles/996332/</link>
+        <guid>https://lwn.net/Articles/996332/</guid>
+        <dc:creator>jzb</dc:creator>
+        <description>&lt;p&gt;The Raspberry Pi project has &lt;a
+href=&quot;https://www.raspberrypi.com/news/a-new-release-of-raspberry-pi-os/&quot;&gt;announced&lt;/a&gt;
+a new version of Raspberry Pi OS. It includes a number of
+significant changes, the most notable of which is that the Raspberry
+Pi Desktop now uses Wayland by default for all Pi models using the
+&lt;a href=&quot;https://labwc.github.io/&quot;&gt;labwc&lt;/a&gt; compositor:&lt;/p&gt;
+
+&lt;blockquote class=&quot;bq&quot;&gt;
+For most of this year, we have been working on porting labwc to the
+Raspberry Pi Desktop. This has very much been a collaborative process
+with the developers of both labwc and wlroots: both have helped us
+immensely with their support as we contribute features and
+optimisations needed for our desktop.
+&lt;/blockquote&gt;
+
+&lt;p&gt;This release also features Linux 6.6.51, improved touchscreen support, a new
+screen configuration tool called &lt;tt&gt;raindrop&lt;/tt&gt;, and more. See the
+&lt;a
+href=&quot;https://downloads.raspberrypi.com/raspios_armhf/release_notes.txt&quot;&gt;release
+notes&lt;/a&gt; for a full list of changes.&lt;/p&gt;</description>
+        <pubDate>Wed, 30 Oct 2024 16:41:09 +0000</pubDate>
+        </item>
+        <item>
         <title>[$] An update on Apple M1/M2 GPU drivers</title>
         <link>https://lwn.net/Articles/995383/</link>
         <guid>https://lwn.net/Articles/995383/</guid>
@@ -125,178 +281,6 @@ he explained.
 &lt;/p&gt;
 </description>
         <pubDate>Tue, 29 Oct 2024 17:01:12 +0000</pubDate>
-        </item>
-        <item>
-        <title>Security updates for Tuesday</title>
-        <link>https://lwn.net/Articles/996196/</link>
-        <guid>https://lwn.net/Articles/996196/</guid>
-        <dc:creator>daroc</dc:creator>
-        <description>Security updates have been issued by &lt;b&gt;Debian&lt;/b&gt; (exim4) and &lt;b&gt;SUSE&lt;/b&gt; (chromium, openssl-1_1, and openssl-3).
-</description>
-        <pubDate>Tue, 29 Oct 2024 13:27:23 +0000</pubDate>
-        </item>
-        <item>
-        <title>Flock: a Flutter fork</title>
-        <link>https://lwn.net/Articles/996147/</link>
-        <guid>https://lwn.net/Articles/996147/</guid>
-        <dc:creator>corbet</dc:creator>
-        <description>A project called Flock has &lt;a
-href=&quot;https://flutterfoundation.dev/blog/posts/we-are-forking-flutter-this-is-why/&quot;&gt;announced
-its existence&lt;/a&gt;.  Flock is a fork of the Flutter user-interface toolkit
-project, motivated by frustration with the resources that Google is putting
-into Flutter.
-&lt;p&gt;
-&lt;blockquote class=&quot;bq&quot;&gt;
-	We describe Flock as &quot;Flutter+&quot;. In other words, we do not want, or
-	intend, to fork the Flutter community. Flock will remain constantly
-	up to date with Flutter. Flock will add important bug fixes, and
-	popular community features, which the Flutter team either can't, or
-	won't implement.
-&lt;/blockquote&gt;
-&lt;p&gt;
-(LWN &lt;a href=&quot;https://lwn.net/Articles/828475/&quot;&gt;looked at Flutter&lt;/a&gt; in 2020).</description>
-        <pubDate>Tue, 29 Oct 2024 03:52:50 +0000</pubDate>
-        </item>
-        <item>
-        <title>Coker: The CUPS vulnerability</title>
-        <link>https://lwn.net/Articles/996108/</link>
-        <guid>https://lwn.net/Articles/996108/</guid>
-        <dc:creator>jzb</dc:creator>
-        <description>&lt;p&gt;Debian Developer Russell Coker has &lt;a
-href=&quot;https://etbe.coker.com.au/2024/10/26/cups-vulnerability/&quot;&gt;written
-up&lt;/a&gt; an analysis of the &lt;a
-href=&quot;https://lwn.net/Articles/991929/&quot;&gt;remote exploit of CUPS&lt;/a&gt;
-announced in September:&lt;/p&gt;
-
-&lt;blockquote class=&quot;bq&quot;&gt;
-&lt;p&gt;He seems to have a different experience to me of reporting bugs, I
-have had plenty of success getting bugs fixed without hyping them. I
-just report the bug, wait a while, and it gets fixed. [...] I
-was quite confident that my systems wouldn't be at any risk.&lt;/p&gt;
-
-&lt;p&gt;When it was published my opinion was proven to be correct, &lt;a
-href=&quot;https://www.securityweek.com/highly-anticipated-linux-flaw-allows-remote-code-execution-but-less-serious-than-expected/&quot;&gt;it
-turned out to be a series of CUPS bugs&lt;/a&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;</description>
-        <pubDate>Mon, 28 Oct 2024 21:28:38 +0000</pubDate>
-        </item>
-        <item>
-        <title>Open Source Initiative announces Open Source AI Definition 1.0</title>
-        <link>https://lwn.net/Articles/996104/</link>
-        <guid>https://lwn.net/Articles/996104/</guid>
-        <dc:creator>jzb</dc:creator>
-        <description>&lt;p&gt;The &lt;a href=&quot;https://opensource.org/&quot;&gt;Open Source Initiative&lt;/a&gt;
-(OSI) has &lt;a
-href=&quot;https://opensource.org/blog/the-open-source-initiative-announces-the-release-of-the-industrys-first-open-source-ai-definition&quot;&gt;announced&lt;/a&gt;
-the release of &lt;a
-href=&quot;https://opensource.org/ai/open-source-ai-definition&quot;&gt;version
-1.0&lt;/a&gt; of the Open Source AI Definition:&lt;/p&gt;
-
-&lt;blockquote class=&quot;bq&quot;&gt;
-The OSAID offers a standard by which community-led, open and public
-evaluations will be conducted to validate whether or not an AI system
-can be deemed Open Source AI. This first stable version of the OSAID
-is the result of multiple years of research and collaboration, an
-international roadshow of workshops, and a year-long co-design process
-led by the Open Source Initiative (OSI).
-&lt;/blockquote&gt;
-
-&lt;p&gt;LWN &lt;a href=&quot;https://lwn.net/Articles/995159/&quot;&gt;covered&lt;/a&gt; the
-OSAID process, and final release candidate, on October 25.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
-        <pubDate>Mon, 28 Oct 2024 21:03:30 +0000</pubDate>
-        </item>
-        <item>
-        <title>[$] The performance of the Rust compiler</title>
-        <link>https://lwn.net/Articles/995125/</link>
-        <guid>https://lwn.net/Articles/995125/</guid>
-        <dc:creator>daroc</dc:creator>
-        <description>&lt;p&gt;
-Sparrow Li presented virtually at
-&lt;a href=&quot;https://rustconf.com&quot;&gt;
-RustConf&lt;/a&gt;&amp;nbsp;2024 about the current state of and
-future plans for the Rust compiler's performance. The compiler is relatively slow to compile
-large programs, although it has been getting better over time. The next big
-performance improvement to come will be parallelizing the compiler's parsing,
-type-checking, and related operations, but even after that, the project has
-several avenues left to explore.
-&lt;/p&gt;
-</description>
-        <pubDate>Mon, 28 Oct 2024 16:10:27 +0000</pubDate>
-        </item>
-        <item>
-        <title>[$] AutoFDO and Propeller</title>
-        <link>https://lwn.net/Articles/995397/</link>
-        <guid>https://lwn.net/Articles/995397/</guid>
-        <dc:creator>jake</dc:creator>
-        <description>Rong Xu and
-Han Shen described the kernel-optimization techniques that Google uses in the &lt;a
-href=&quot;https://lpc.events/event/18/sessions/180/#20240918&quot;&gt;toolchains
-track&lt;/a&gt; at the &lt;a
-href=&quot;https://lpc.events/event/18/page/224-lpc-2024-overview&quot;&gt;2024 Linux
-Plumbers Conference&lt;/a&gt;.
-They talked about &lt;a
-href=&quot;https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/45290.pdf&quot;&gt;automatic
-feedback-directed optimization&lt;/a&gt; (AutoFDO), which can be used with the &lt;a
-href=&quot;https://research.google/pubs/propeller-a-profile-guided-relinking-optimizer-for-warehouse-scale-applications/&quot;&gt;Propeller&lt;/a&gt;
-optimizer to produce kernels with better performance using profile
-information gathered from real workloads.  There is a fair amount of
-overlap between these tools and the &lt;a
-href=&quot;https://github.com/llvm/llvm-project/tree/main/bolt#bolt&quot;&gt;BOLT&lt;/a&gt;
-post-link optimizer, which was the subject of a &lt;a
-href=&quot;https://lwn.net/Articles/993828/&quot;&gt;talk&lt;/a&gt; that directly preceded this session.
-</description>
-        <pubDate>Mon, 28 Oct 2024 15:15:19 +0000</pubDate>
-        </item>
-        <item>
-        <title>Security updates for Monday</title>
-        <link>https://lwn.net/Articles/996085/</link>
-        <guid>https://lwn.net/Articles/996085/</guid>
-        <dc:creator>jake</dc:creator>
-        <description>Security updates have been issued by &lt;b&gt;AlmaLinux&lt;/b&gt; (kernel, python3.12, and python3.9), &lt;b&gt;Debian&lt;/b&gt; (activemq, chromium, libheif, nss, and twisted), &lt;b&gt;Fedora&lt;/b&gt; (chromium, dnsdist, dotnet8.0, edk2, glibc, libdigidocpp, mbedtls3.6, NetworkManager-libreswan, oath-toolkit, podman-tui, prometheus-podman-exporter, python-fastapi, python-openapi-core, python-platformio, python-rpyc, python-starlette, rust-pyo3, rust-pyo3-build-config, rust-pyo3-ffi, rust-pyo3-macros, rust-pyo3-macros-backend, suricata, thunderbird, and yarnpkg), &lt;b&gt;Mageia&lt;/b&gt; (cpanminus, libgsf, mozjs78, redis, and thunderbird), &lt;b&gt;Oracle&lt;/b&gt; (firefox, python3.12, python3.9, and python39:3.9 and python39-devel:3.9), &lt;b&gt;Red Hat&lt;/b&gt; (edk2, grafana, httpd, httpd:2.4, and mod_jk), and &lt;b&gt;SUSE&lt;/b&gt; (nodejs-electron, python3, python310, and python39).
-</description>
-        <pubDate>Mon, 28 Oct 2024 14:13:45 +0000</pubDate>
-        </item>
-        <item>
-        <title>Kernel prepatch 6.12-rc5</title>
-        <link>https://lwn.net/Articles/995981/</link>
-        <guid>https://lwn.net/Articles/995981/</guid>
-        <dc:creator>corbet</dc:creator>
-        <description>Linus has released &lt;a href=&quot;https://lwn.net/Articles/995980/&quot;&gt;6.12-rc5&lt;/a&gt; for testing.
-&lt;p&gt;
-&lt;blockquote class=&quot;bq&quot;&gt;
-	rc5 looks perfectly normal, and maybe even on the small side of
-	normal. The diffstat looks nice and flat too, with the exception of
-	the removal of the da8xx fbdev driver due to it having been
-	replaced by the tilcdc driver. And I'm sure we're all thinking the
-	same thing: &quot;What lovely descriptive driver names we have&quot;.
-&lt;/blockquote&gt;</description>
-        <pubDate>Mon, 28 Oct 2024 00:01:13 +0000</pubDate>
-        </item>
-        <item>
-        <title>[$] OSI readies controversial Open AI definition</title>
-        <link>https://lwn.net/Articles/995159/</link>
-        <guid>https://lwn.net/Articles/995159/</guid>
-        <dc:creator>jzb</dc:creator>
-        <description>&lt;p&gt;The &lt;a href=&quot;https://opensource.org/&quot;&gt;Open Source Initiative&lt;/a&gt;
-(OSI) has been working on defining &lt;a
-href=&quot;https://opensource.org/ai&quot;&gt;Open Source AI&lt;/a&gt;&amp;mdash;that is what
-constitutes an AI system that can be used, studied, modified, and
-shared for any purpose&amp;mdash;for almost two
-years. Its &lt;a
-href=&quot;https://opensource.org/about/board-of-directors&quot;&gt;board&lt;/a&gt; will
-be voting on the &lt;a href=&quot;https://opensource.org/ai/drafts/the-open-source-ai-definition-1-0-rc2&quot;&gt;Open Source AI Definition&lt;/a&gt; (OSAID) on Sunday,
-October&amp;nbsp;27, with the 1.0 version slated to be published on
-October&amp;nbsp;28. It is never possible to please &lt;em&gt;everyone&lt;/em&gt; in
-such an endeavor, and it would be folly to make that a goal. However,
-a number of prominent figures in the open-source community have voiced
-concerns that OSI is setting the bar too low with the OSAID&amp;mdash;which
-will undo decades of community work to cajole vendors into adhering to
-or respecting the original &lt;a href=&quot;https://opensource.org/osd&quot;&gt;Open Source
-Definition&lt;/a&gt; (OSD).&lt;/p&gt;
-</description>
-        <pubDate>Fri, 25 Oct 2024 21:02:36 +0000</pubDate>
         </item>
         </channel>
 </rss>
